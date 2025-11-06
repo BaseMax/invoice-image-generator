@@ -213,12 +213,13 @@ function downloadImage(string $url, string $cacheDir = __DIR__ . '/cache_images'
     return $outPath;
 }
 
-function drawImagesAtBottom($im, array $imagePaths, int $tableLeft, int $tableRight, int $imageAreaTop, int $imageAreaHeight) {
+function drawImagesAtBottom($im, array $imagePaths, int $tableLeft, int $tableRight, int $imageAreaTop, int $imageAreaHeight)
+{
     $count = count($imagePaths);
     if ($count === 0) return;
 
     $areaWidth = $tableRight - $tableLeft;
-    $colWidth = (int)($areaWidth / $count);
+    $colWidth = $areaWidth / $count;
     $paddingInside = 0;
 
     for ($i = 0; $i < $count; $i++) {
@@ -232,39 +233,40 @@ function drawImagesAtBottom($im, array $imagePaths, int $tableLeft, int $tableRi
         $srcW = imagesx($src);
         $srcH = imagesy($src);
 
-        $cellLeft = $tableLeft + $i * $colWidth;
-        $cellCenterX = (int)($cellLeft + $colWidth / 2);
-        $maxW = $colWidth - $paddingInside * 2;
+        $cellLeft  = (int)round($tableLeft + $i * $colWidth);
+        $cellRight = (int)round($tableLeft + ($i + 1) * $colWidth);
+        $cellWidth = $cellRight - $cellLeft;
+
+        $maxW = $cellWidth - $paddingInside * 2;
         $maxH = $imageAreaHeight - $paddingInside * 2;
 
-        $ratio = max($maxW / $srcW, $maxH / $srcH); // fill fully, may crop
-
+        $ratio = max($maxW / $srcW, $maxH / $srcH);
         $dstW = (int)ceil($srcW * $ratio);
         $dstH = (int)ceil($srcH * $ratio);
 
-        // Center crop
         $srcX = max(0, (int)(($dstW - $maxW) / (2 * $ratio)));
         $srcY = max(0, (int)(($dstH - $maxH) / (2 * $ratio)));
         $cropW = (int)min($srcW - $srcX, $maxW / $ratio);
         $cropH = (int)min($srcH - $srcY, $maxH / $ratio);
 
-        $dstX = (int)($cellCenterX - $dstW / 2);
-        $dstY = (int)($imageAreaTop + ($imageAreaHeight - $dstH) / 2);
-
-        $dst = imagecreatetruecolor($dstW, $dstH);
+        $dst = imagecreatetruecolor($maxW, $maxH);
         imagealphablending($dst, false);
         imagesavealpha($dst, true);
         $transparent = imagecolorallocatealpha($dst, 0, 0, 0, 127);
-        imagefilledrectangle($dst, 0, 0, $dstW, $dstH, $transparent);
+        imagefilledrectangle($dst, 0, 0, $maxW, $maxH, $transparent);
 
         imagecopyresampled(
             $dst, $src,
-            0, 0, 
+            0, 0,
             $srcX, $srcY,
-            $dstW, $dstH,
+            $maxW, $maxH,
             $cropW, $cropH
         );
-        imagecopy($im, $dst, $dstX, $dstY, 0, 0, $dstW, $dstH);
+
+        $dstX = $cellLeft + $paddingInside;
+        $dstY = (int)($imageAreaTop + ($imageAreaHeight - $maxH) / 2);
+
+        imagecopy($im, $dst, $dstX, $dstY, 0, 0, $maxW, $maxH);
 
         imagedestroy($src);
         imagedestroy($dst);
@@ -293,6 +295,7 @@ foreach ($tables as $tIndex => $table) {
 
     $topLines = array_slice($table, 0, 2);
     $bottomLines = array_slice($table, -4);
+    array_unshift($bottomLines, ["از کل فروش این فاکتور یک درصد صرف امور خیریه میشود."]);
     $headerIdx = null;
     foreach ($table as $ri => $row) {
         if (mb_strpos(implode(' ', $row), 'ردیف') !== false) {
@@ -312,6 +315,18 @@ foreach ($tables as $tIndex => $table) {
         }
         else if (isset($row[1]) && str_contains($row[1], "ارسال")) {
             break;
+        }
+
+        if (isset($row[1]) && strlen($row[1]) < 4) {
+            break;
+        }
+
+        if(! isset($row[4])) {
+            print "Error: cannot find metraj in table items!\n";
+            exit();
+        }
+        if ($ri !== $headerIdx) {
+            $row[4] = strrev(str_replace(".", "/", $row[4]));
         }
         $tableLines[] = $row;
     }
@@ -338,7 +353,7 @@ foreach ($tables as $tIndex => $table) {
     $im = imagecreatetruecolor($totalWidth, $totalHeight);
     $white = imagecolorallocate($im, 255, 255, 255);
     $black = imagecolorallocate($im, 0, 0, 0);
-    $gray  = imagecolorallocate($im, 240, 240, 240);
+    $gray  = imagecolorallocate($im, 255, 196, 217);
     imagefill($im, 0, 0, $white);
 
     $y = $padding + $fontSize;
@@ -359,7 +374,7 @@ foreach ($tables as $tIndex => $table) {
     foreach ($tableLines as $rIndex => $row) {
         $x = $totalWidth - $padding;
         if ($rIndex === 0) {
-            imagefilledrectangle($im, (int) $tableLeft, (int) $y - $fontSize - 6, (int) $totalWidth - $padding, (int) $y + $lineHeight - $fontSize, $gray);
+            imagefilledrectangle($im, (int) $tableLeft, (int) $y - $fontSize - 6, (int) $totalWidth - $padding, (int) $y + $lineHeight - $fontSize + 8, $gray);
         }
 
         if ($rIndex !== 0) {
@@ -440,8 +455,8 @@ foreach ($tables as $tIndex => $table) {
         }
     }
 
-    $imageAreaHeight = max(0, $totalHeight - $y - $padding - 50);
-    $imageAreaTop = $y + 20;
+    $imageAreaHeight = max(0, $totalHeight - $y);
+    $imageAreaTop = $y + 10;
     drawImagesAtBottom($im, $localImages, 0, $totalWidth, $imageAreaTop, $imageAreaHeight);
 
     $outFile = $outDir . "table_{$tIndex}.png";
