@@ -48,7 +48,8 @@ function create_product_image(string $code, string $title, string $description, 
         return new WP_Error('upload_error', 'Could not get upload dir');
     }
 
-    $filename = sanitize_file_name('outlet-product-' . $code . '-' . time() . '-' . wp_generate_password(4, false, false) . '.png');
+    // $filename = sanitize_file_name('outlet-product-' . $code . '-' . time() . '-' . wp_generate_password(4, false, false) . '.png');
+    $filename = sanitize_file_name('outlet-product-' . $code . '.png');
     $filepath = $upload['path'] . '/' . $filename;
 
     if (!copy($imagePath, $filepath)) {
@@ -89,6 +90,26 @@ foreach ($tables as $tIndex => $table) {
 
     $code = getNumberFromText($table[1][0] ?? "0");
     $title = "سبد اوت لت شماره " . $code;
+    $sku = 'OUT-' . $code;
+
+    $existing = wc_get_product_id_by_sku($sku);
+    if ($existing) {
+        $product_id = $existing;
+        $log[] = "Updating existing product with SKU: {$sku} (ID: {$product_id})";
+    } else {
+        $product = [
+            'post_title'   => $title,
+            'post_content' => '',
+            'post_status'  => 'publish',
+            'post_type'    => 'product',
+        ];
+        $product_id = wp_insert_post($product);
+        if (is_wp_error($product_id) || !$product_id) {
+            $log[] = "Failed to insert product for table {$tIndex}";
+            continue;
+        }
+        $log[] = "Created new product: {$title} (ID: {$product_id}, SKU: {$sku})";
+    }
 
     $description = "";
     foreach ($table as $row) {
@@ -98,21 +119,14 @@ foreach ($tables as $tIndex => $table) {
     }
     $description = trim($description);
 
-    $product = [
+    wp_update_post([
+        'ID'           => $product_id,
         'post_title'   => $title,
         'post_content' => $description,
         'post_status'  => 'publish',
-        'post_type'    => 'product',
-    ];
-
-    $product_id = wp_insert_post($product);
-    if (is_wp_error($product_id) || !$product_id) {
-        $log[] = "Failed to insert product for table {$tIndex}";
-        continue;
-    }
+    ]);
 
     wp_set_object_terms($product_id, 'simple', 'product_type');
-
     wp_set_object_terms($product_id, (int)$target_cat_id, 'product_cat');
 
     $attach_id = create_product_image($code, $title, $description, $image);
@@ -131,13 +145,10 @@ foreach ($tables as $tIndex => $table) {
     update_post_meta($product_id, '_price', $fixed_price);
 
     update_post_meta($product_id, '_visibility', 'visible');
-
-    $sku = 'OUT-' . str_pad($code ?: $product_id, 5, '0', STR_PAD_LEFT);
     update_post_meta($product_id, '_sku', $sku);
 
     $created++;
     $log[] = "Created product: {$title} (ID: {$product_id}, SKU: {$sku})";
-	break;
 }
 
 // ---------------------------------------------------------
