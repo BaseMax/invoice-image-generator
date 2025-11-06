@@ -2,7 +2,11 @@
 require 'vendor/autoload.php';
 
 use PhpOffice\PhpSpreadsheet\IOFactory;
+use PhpOffice\PhpSpreadsheet\Cell\Cell;
 
+/**
+ * Check if a row is completely empty.
+ */
 function isRowEmpty(array $row): bool {
     foreach ($row as $cell) {
         if (trim((string)$cell) !== '') {
@@ -12,6 +16,9 @@ function isRowEmpty(array $row): bool {
     return true;
 }
 
+/**
+ * Remove columns that are empty in all rows.
+ */
 function removeEmptyColumns(array $table): array {
     if (empty($table)) return $table;
 
@@ -38,15 +45,27 @@ function removeEmptyColumns(array $table): array {
     return $filtered;
 }
 
+/**
+ * Extract multiple tables from Excel separated by blank rows,
+ * and evaluate Excel formulas automatically.
+ */
 function extractTables(string $filePath, int $maxEmptyGap = 2): array {
-    $spreadsheet = IOFactory::load($filePath);
+    $reader = IOFactory::createReaderForFile($filePath);
+    $reader->setReadDataOnly(false);
+    $spreadsheet = $reader->load($filePath);
     $sheet = $spreadsheet->getActiveSheet();
 
     $rows = [];
     foreach ($sheet->getRowIterator() as $row) {
         $cells = [];
         foreach ($row->getCellIterator() as $cell) {
-            $cells[] = trim((string)$cell->getValue());
+            /** @var Cell $cell */
+            try {
+                $value = $cell->getCalculatedValue();
+            } catch (Exception $e) {
+                $value = $cell->getValue();
+            }
+            $cells[] = trim((string)$value);
         }
         $rows[] = $cells;
     }
@@ -69,7 +88,7 @@ function extractTables(string $filePath, int $maxEmptyGap = 2): array {
     }
 
     if (count($currentTable) > 0) {
-        $tables[] = $currentTable;
+        $tables[] = removeEmptyColumns($currentTable);
     }
 
     return $tables;
