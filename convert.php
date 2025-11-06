@@ -7,6 +7,29 @@ require 'vendor/autoload.php';
 use PhpOffice\PhpSpreadsheet\IOFactory;
 use PhpOffice\PhpSpreadsheet\Worksheet\Worksheet;
 
+$products = json_decode(file_get_contents("all-products.json"), true);
+
+function getNumberFromText(string $text): ?string
+{
+    preg_match_all('/\d+(?:\.\d+)?/', $text, $matches);
+    if (empty($matches[0])) {
+        return null;
+    }
+    return end($matches[0]);
+}
+
+function findProductBySku(string $sku): ?string {
+    global $products;
+
+    foreach ($products as $product_item) {
+        if ($product_item["sku"] === $sku) {
+            return $product_item["image"];
+        }
+    }
+
+    return null;
+}
+
 function isRowEmpty(array $row): bool {
     foreach ($row as $cell) {
         if (trim((string)$cell) !== '') return false;
@@ -181,9 +204,6 @@ foreach ($tables as $tIndex => $table) {
     $totalWidth = array_sum($colWidths) + $padding * 2;
     $totalHeight = $padding * 4 + $lineHeight * (count($tableLines) + count($topLines) + count($bottomLines) + 4);
 
-    var_dump($totalWidth);
-    var_dump($totalHeight);
-
     $im = imagecreatetruecolor($totalWidth, $totalHeight);
     $white = imagecolorallocate($im, 255, 255, 255);
     $black = imagecolorallocate($im, 0, 0, 0);
@@ -203,12 +223,27 @@ foreach ($tables as $tIndex => $table) {
     $y += $lineHeight / 2;
 
     $tableLeft = $totalWidth - $padding - array_sum($colWidths);
+    $images = [];
     foreach ($tableLines as $rIndex => $row) {
         $x = $totalWidth - $padding;
         if ($rIndex === 0) {
             imagefilledrectangle($im, (int) $tableLeft, (int) $y - $fontSize - 6, (int) $totalWidth - $padding, (int) $y + $lineHeight - $fontSize, $gray);
         }
 
+        if ($rIndex !== 0) {
+            $product_name = $row[1];
+            $product_sku = getNumberFromText($product_name);
+            if ($product_sku === null) {
+                print "Error: cannot get sku from product name.";
+                exit();
+            }
+            $image = findProductBySku($product_sku);
+            if ($image === null) {
+                print "Error: cannot find the product details or image.";
+                exit();
+            }
+            $images[] = $image;
+        }
         foreach ($row as $ci => $cellText) {
             $colW = $colWidths[$ci];
             $bbox = sizeText($fontSize, $fontFile, $cellText ?: ' ');
