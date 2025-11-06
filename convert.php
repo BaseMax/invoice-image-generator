@@ -1,7 +1,7 @@
 <?php
 require 'vendor/autoload.php';
+
 use PhpOffice\PhpSpreadsheet\IOFactory;
-use PhpOffice\PhpSpreadsheet\Cell\Cell;
 use PhpOffice\PhpSpreadsheet\Worksheet\Worksheet;
 
 /**
@@ -82,18 +82,15 @@ function extractTables(string $filePath, int $maxEmptyGap = 2): array {
     foreach ($sheet->getRowIterator() as $row) {
         $cells = [];
         foreach ($row->getCellIterator() as $cell) {
-            /** @var Cell $cell */
             $colIndex = $cell->getColumn();
             $rowIndex = $cell->getRow();
             $colNum = \PhpOffice\PhpSpreadsheet\Cell\Coordinate::columnIndexFromString($colIndex);
 
-            // Check if this cell is part of a merged region
             $mergedKey = "{$rowIndex}_{$colNum}";
             if (isset($mergedMap[$mergedKey])) {
                 [$topRow, $leftCol] = $mergedMap[$mergedKey];
-                // Only take the top-left cell of merged range
                 if ($topRow !== $rowIndex || $leftCol !== $colNum) {
-                    continue; // skip non-top-left merged cells
+                    continue;
                 }
             }
 
@@ -108,7 +105,6 @@ function extractTables(string $filePath, int $maxEmptyGap = 2): array {
         $rows[] = $cells;
     }
 
-    // Split into tables
     $tables = [];
     $current = [];
     $emptyCount = 0;
