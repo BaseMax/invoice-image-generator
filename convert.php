@@ -4,9 +4,6 @@ require 'vendor/autoload.php';
 use PhpOffice\PhpSpreadsheet\IOFactory;
 use PhpOffice\PhpSpreadsheet\Worksheet\Worksheet;
 
-/**
- * Check if a row is entirely empty
- */
 function isRowEmpty(array $row): bool {
     foreach ($row as $cell) {
         if (trim((string)$cell) !== '') return false;
@@ -14,9 +11,6 @@ function isRowEmpty(array $row): bool {
     return true;
 }
 
-/**
- * Get a lookup table of merged cell coordinates -> top-left coordinate
- */
 function getMergedMap(Worksheet $sheet): array {
     $mergedMap = [];
     foreach ($sheet->getMergeCells() as $range) {
@@ -40,35 +34,19 @@ function getMergedMap(Worksheet $sheet): array {
 }
 
 /**
- * Remove empty columns and trim trailing empties
+ * Remove *all* empty cells from rows (not just columns)
  */
-function removeEmptyColumns(array $table): array {
-    if (empty($table)) return $table;
-
-    $colCount = max(array_map('count', $table));
-    $colHasValue = array_fill(0, $colCount, false);
-
-    foreach ($table as $row) {
-        foreach ($row as $i => $cell) {
-            if (trim((string)$cell) !== '') $colHasValue[$i] = true;
-        }
-    }
-
+function compactRows(array $table): array {
     $cleaned = [];
     foreach ($table as $row) {
-        $newRow = [];
-        foreach ($row as $i => $cell) {
-            if (!empty($colHasValue[$i])) $newRow[] = trim((string)$cell);
-        }
-        while (!empty($newRow) && trim(end($newRow)) === '') array_pop($newRow);
-        $cleaned[] = $newRow;
+        $filtered = array_values(array_filter($row, fn($v) => trim((string)$v) !== ''));
+        $cleaned[] = $filtered;
     }
-
     return $cleaned;
 }
 
 /**
- * Extract tables separated by empty rows (and handle merged cells)
+ * Extract tables separated by empty rows (handles merged + formulas)
  */
 function extractTables(string $filePath, int $maxEmptyGap = 2): array {
     $reader = IOFactory::createReaderForFile($filePath);
@@ -113,18 +91,19 @@ function extractTables(string $filePath, int $maxEmptyGap = 2): array {
             $emptyCount++;
         } else {
             if ($emptyCount >= $maxEmptyGap && !empty($current)) {
-                $tables[] = removeEmptyColumns($current);
+                $tables[] = compactRows($current);
                 $current = [];
             }
             $emptyCount = 0;
             $current[] = $row;
         }
     }
-    if (!empty($current)) $tables[] = removeEmptyColumns($current);
+    if (!empty($current)) $tables[] = compactRows($current);
 
     return $tables;
 }
 
+// === Run ===
 $filePath = 'input.xlsx';
 $tables = extractTables($filePath);
 
