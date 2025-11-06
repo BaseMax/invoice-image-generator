@@ -125,8 +125,11 @@ foreach ($tables as $tIndex => $table) {
     update_post_meta($product_id, '_manage_stock', 'yes');
     update_post_meta($product_id, '_stock', '1');
     update_post_meta($product_id, '_stock_status', 'instock');
-    update_post_meta($product_id, '_regular_price', '0');
-    update_post_meta($product_id, '_price', '0');
+
+    $fixed_price = 649000;
+    update_post_meta($product_id, '_regular_price', $fixed_price);
+    update_post_meta($product_id, '_price', $fixed_price);
+
     update_post_meta($product_id, '_visibility', 'visible');
 
     $sku = 'OUT-' . str_pad($code ?: $product_id, 5, '0', STR_PAD_LEFT);
