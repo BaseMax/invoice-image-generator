@@ -237,9 +237,16 @@ function drawImagesAtBottom($im, array $imagePaths, int $tableLeft, int $tableRi
         $maxW = $colWidth - $paddingInside * 2;
         $maxH = $imageAreaHeight - $paddingInside * 2;
 
-        $ratio = min($maxW / $srcW, $maxH / $srcH, 1.0);
-        $dstW = (int)max(1, floor($srcW * $ratio));
-        $dstH = (int)max(1, floor($srcH * $ratio));
+        $ratio = max($maxW / $srcW, $maxH / $srcH); // fill fully, may crop
+
+        $dstW = (int)ceil($srcW * $ratio);
+        $dstH = (int)ceil($srcH * $ratio);
+
+        // Center crop
+        $srcX = max(0, (int)(($dstW - $maxW) / (2 * $ratio)));
+        $srcY = max(0, (int)(($dstH - $maxH) / (2 * $ratio)));
+        $cropW = (int)min($srcW - $srcX, $maxW / $ratio);
+        $cropH = (int)min($srcH - $srcY, $maxH / $ratio);
 
         $dstX = (int)($cellCenterX - $dstW / 2);
         $dstY = (int)($imageAreaTop + ($imageAreaHeight - $dstH) / 2);
@@ -250,7 +257,13 @@ function drawImagesAtBottom($im, array $imagePaths, int $tableLeft, int $tableRi
         $transparent = imagecolorallocatealpha($dst, 0, 0, 0, 127);
         imagefilledrectangle($dst, 0, 0, $dstW, $dstH, $transparent);
 
-        imagecopyresampled($dst, $src, 0, 0, 0, 0, $dstW, $dstH, $srcW, $srcH);
+        imagecopyresampled(
+            $dst, $src,
+            0, 0, 
+            $srcX, $srcY,
+            $dstW, $dstH,
+            $cropW, $cropH
+        );
         imagecopy($im, $dst, $dstX, $dstY, 0, 0, $dstW, $dstH);
 
         imagedestroy($src);
@@ -261,6 +274,10 @@ function drawImagesAtBottom($im, array $imagePaths, int $tableLeft, int $tableRi
 $filePath = 'input.xlsx';
 if (!file_exists($filePath)) die("input.xlsx not found\n");
 
+$outDir = "tables/";
+if (!is_dir($outDir)) {
+    @mkdir($outDir, 0755, true);
+}
 $tables = extractTables($filePath);
 
 $fontFile = __DIR__ . '/FreeFarsi.ttf';
@@ -270,7 +287,6 @@ $fontSize = 16;
 $padding = 25;
 $cellPadding = 16;
 $lineHeight = (int)($fontSize * 2.2);
-$imageAreaHeight = 500;
 
 foreach ($tables as $tIndex => $table) {
     if (empty($table)) continue;
@@ -290,6 +306,13 @@ foreach ($tables as $tIndex => $table) {
     for ($ri = $headerIdx; $ri < count($table) - 4; $ri++) {
         $row = array_map('trim', $table[$ri]);
         if (empty(array_filter($row))) break;
+
+        if (isset($row[0]) && str_contains($row[0], "ارسال")) {
+            break;
+        }
+        else if (isset($row[1]) && str_contains($row[1], "ارسال")) {
+            break;
+        }
         $tableLines[] = $row;
     }
 
@@ -309,8 +332,8 @@ foreach ($tables as $tIndex => $table) {
     }
 
     $tableContentWidth = array_sum($colWidths);
-    $totalWidth = 1024;
-    $totalHeight = 1024;
+    $totalWidth = 1200;
+    $totalHeight = 1200;
 
     $im = imagecreatetruecolor($totalWidth, $totalHeight);
     $white = imagecolorallocate($im, 255, 255, 255);
@@ -344,11 +367,13 @@ foreach ($tables as $tIndex => $table) {
             $product_sku = getNumberFromText($product_name);
             if ($product_sku === null) {
                 print "Error: cannot get sku from product name.\n";
+                print_r($row);
                 exit();
             }
             $image = findProductBySku($product_sku);
             if ($image === null) {
                 print "Error: cannot find the product details or image for SKU {$product_sku}.\n";
+                print_r($row);
                 exit();
             }
             $images[] = $image;
@@ -415,13 +440,14 @@ foreach ($tables as $tIndex => $table) {
         }
     }
 
-    $imageAreaTop = $totalHeight - $padding - $imageAreaHeight - 150;
-    drawImagesAtBottom($im, $localImages, (int)0, (int)$totalWidth, (int)$imageAreaTop, (int)$imageAreaHeight);
+    $imageAreaHeight = max(0, $totalHeight - $y - $padding - 50);
+    $imageAreaTop = $y + 20;
+    drawImagesAtBottom($im, $localImages, 0, $totalWidth, $imageAreaTop, $imageAreaHeight);
 
-    $outFile = "table_{$tIndex}.png";
+    $outFile = $outDir . "table_{$tIndex}.png";
     imagepng($im, $outFile);
     imagedestroy($im);
 
     echo "Saved: $outFile\n";
-    exit;
+    // exit;
 }

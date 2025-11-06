@@ -2,3 +2,5 @@
 vendor
 *.rar
 *.zip
+tables/
+cache_images/
