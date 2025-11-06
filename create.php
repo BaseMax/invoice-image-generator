@@ -121,7 +121,7 @@ foreach ($tables as $tIndex => $table) {
     }
 
     update_post_meta($product_id, '_manage_stock', 'yes');
-    update_post_meta($product_id, '_stock', '1'); // موجودی فقط یک عدد
+    update_post_meta($product_id, '_stock', '1');
     update_post_meta($product_id, '_stock_status', 'instock');
     update_post_meta($product_id, '_regular_price', '0');
     update_post_meta($product_id, '_price', '0');
