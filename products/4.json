@@ -1,10 +1,2101 @@
 [
     {
+        "id": 11157,
+        "sku": "7023",
+        "name": "طرح پترن چیریکی دو | کد 7023",
+        "type": "variable",
+        "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/2022.1-1024x1024.jpg",
+        "status": "draft",
+        "variations": [
+            {
+                "id": 81535,
+                "price": 609000,
+                "attributes": {
+                    "cloth": "jacquard"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/2022.1-1024x1024.jpg"
+            },
+            {
+                "id": 81542,
+                "price": 427000,
+                "attributes": {
+                    "cloth": "crepe-bugatti"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/2022.1-1024x1024.jpg"
+            },
+            {
+                "id": 81546,
+                "price": 0,
+                "attributes": {
+                    "cloth": "lin-yesna"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/2022.1-1024x1024.jpg"
+            },
+            {
+                "id": 81548,
+                "price": 585000,
+                "attributes": {
+                    "cloth": "velvet-overcoat"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/2022.1-1024x1024.jpg"
+            },
+            {
+                "id": 81550,
+                "price": 809000,
+                "attributes": {
+                    "cloth": "match-velvet"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/2022.1-1024x1024.jpg"
+            }
+        ]
+    },
+    {
+        "id": 11141,
+        "sku": "2017",
+        "name": "طرح پترن روباه | کد 2017",
+        "type": "variable",
+        "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/2017-1024x1024.jpg",
+        "status": "publish",
+        "variations": [
+            {
+                "id": 81552,
+                "price": 609000,
+                "attributes": {
+                    "cloth": "jacquard"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/2017-1024x1024.jpg"
+            },
+            {
+                "id": 81555,
+                "price": 427000,
+                "attributes": {
+                    "cloth": "crepe-bugatti"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/2017-1024x1024.jpg"
+            },
+            {
+                "id": 81557,
+                "price": 0,
+                "attributes": {
+                    "cloth": "lin-yesna"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/2017-1024x1024.jpg"
+            },
+            {
+                "id": 81559,
+                "price": 585000,
+                "attributes": {
+                    "cloth": "velvet-overcoat"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/2017-1024x1024.jpg"
+            },
+            {
+                "id": 81561,
+                "price": 809000,
+                "attributes": {
+                    "cloth": "match-velvet"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/2017-1024x1024.jpg"
+            }
+        ]
+    },
+    {
+        "id": 11133,
+        "sku": "2015",
+        "name": "طرح آلبالو | کد  2015",
+        "type": "variable",
+        "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/2015-1024x1024.jpg",
+        "status": "publish",
+        "variations": [
+            {
+                "id": 81563,
+                "price": 609000,
+                "attributes": {
+                    "cloth": "jacquard"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/2015-1024x1024.jpg"
+            },
+            {
+                "id": 81566,
+                "price": 427000,
+                "attributes": {
+                    "cloth": "crepe-bugatti"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/2015-1024x1024.jpg"
+            },
+            {
+                "id": 81568,
+                "price": 0,
+                "attributes": {
+                    "cloth": "lin-yesna"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/2015-1024x1024.jpg"
+            },
+            {
+                "id": 81570,
+                "price": 585000,
+                "attributes": {
+                    "cloth": "velvet-overcoat"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/2015-1024x1024.jpg"
+            },
+            {
+                "id": 81572,
+                "price": 809000,
+                "attributes": {
+                    "cloth": "match-velvet"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/2015-1024x1024.jpg"
+            }
+        ]
+    },
+    {
+        "id": 11126,
+        "sku": "5036",
+        "name": "طرح گل ابی 15 | کد 5036",
+        "type": "variable",
+        "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/gol-abi-15-scaled-1-1024x683.jpg",
+        "status": "publish",
+        "variations": [
+            {
+                "id": 81574,
+                "price": 609000,
+                "attributes": {
+                    "cloth": "jacquard"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/gol-abi-15-scaled-1-1024x683.jpg"
+            },
+            {
+                "id": 81577,
+                "price": 427000,
+                "attributes": {
+                    "cloth": "crepe-bugatti"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/gol-abi-15-scaled-1-1024x683.jpg"
+            },
+            {
+                "id": 81579,
+                "price": 0,
+                "attributes": {
+                    "cloth": "lin-yesna"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/gol-abi-15-scaled-1-1024x683.jpg"
+            },
+            {
+                "id": 81583,
+                "price": 585000,
+                "attributes": {
+                    "cloth": "velvet-overcoat"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/gol-abi-15-scaled-1-1024x683.jpg"
+            },
+            {
+                "id": 81587,
+                "price": 809000,
+                "attributes": {
+                    "cloth": "match-velvet"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/gol-abi-15-scaled-1-1024x683.jpg"
+            }
+        ]
+    },
+    {
+        "id": 11119,
+        "sku": "5031",
+        "name": "طرح قاصدک9 | کد 5031",
+        "type": "variable",
+        "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/Dandelion-9-1-scaled-1-1024x726.jpg",
+        "status": "publish",
+        "variations": [
+            {
+                "id": 81582,
+                "price": 609000,
+                "attributes": {
+                    "cloth": "jacquard"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/Dandelion-9-1-scaled-1-1024x726.jpg"
+            },
+            {
+                "id": 81588,
+                "price": 427000,
+                "attributes": {
+                    "cloth": "crepe-bugatti"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/Dandelion-9-1-scaled-1-1024x726.jpg"
+            },
+            {
+                "id": 81590,
+                "price": 0,
+                "attributes": {
+                    "cloth": "lin-yesna"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/Dandelion-9-1-scaled-1-1024x726.jpg"
+            },
+            {
+                "id": 81592,
+                "price": 585000,
+                "attributes": {
+                    "cloth": "velvet-overcoat"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/Dandelion-9-1-scaled-1-1024x726.jpg"
+            },
+            {
+                "id": 81594,
+                "price": 809000,
+                "attributes": {
+                    "cloth": "match-velvet"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/Dandelion-9-1-scaled-1-1024x726.jpg"
+            }
+        ]
+    },
+    {
+        "id": 11104,
+        "sku": "5027",
+        "name": "طرح قاصدک 5 | کد 5027",
+        "type": "variable",
+        "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/Dandelion-5-scaled-1-1024x726.jpg",
+        "status": "publish",
+        "variations": [
+            {
+                "id": 81688,
+                "price": 609000,
+                "attributes": {
+                    "cloth": "jacquard"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/Dandelion-5-scaled-1-1024x726.jpg"
+            },
+            {
+                "id": 81692,
+                "price": 427000,
+                "attributes": {
+                    "cloth": "crepe-bugatti"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/Dandelion-5-scaled-1-1024x726.jpg"
+            },
+            {
+                "id": 81694,
+                "price": 0,
+                "attributes": {
+                    "cloth": "lin-yesna"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/Dandelion-5-scaled-1-1024x726.jpg"
+            },
+            {
+                "id": 81696,
+                "price": 585000,
+                "attributes": {
+                    "cloth": "velvet-overcoat"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/Dandelion-5-scaled-1-1024x726.jpg"
+            },
+            {
+                "id": 81699,
+                "price": 809000,
+                "attributes": {
+                    "cloth": "match-velvet"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/Dandelion-5-scaled-1-1024x726.jpg"
+            }
+        ]
+    },
+    {
+        "id": 11097,
+        "sku": "5025",
+        "name": "طرح قاصدک 3| کد 5025",
+        "type": "variable",
+        "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/Dandelion-3-scaled-1-1024x726.jpg",
+        "status": "publish",
+        "variations": [
+            {
+                "id": 81596,
+                "price": 609000,
+                "attributes": {
+                    "cloth": "jacquard"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/Dandelion-3-scaled-1-1024x726.jpg"
+            },
+            {
+                "id": 81599,
+                "price": 427000,
+                "attributes": {
+                    "cloth": "crepe-bugatti"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/Dandelion-3-scaled-1-1024x726.jpg"
+            },
+            {
+                "id": 81601,
+                "price": 0,
+                "attributes": {
+                    "cloth": "lin-yesna"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/Dandelion-3-scaled-1-1024x726.jpg"
+            },
+            {
+                "id": 81603,
+                "price": 585000,
+                "attributes": {
+                    "cloth": "velvet-overcoat"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/Dandelion-3-scaled-1-1024x726.jpg"
+            },
+            {
+                "id": 81606,
+                "price": 809000,
+                "attributes": {
+                    "cloth": "match-velvet"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/Dandelion-3-scaled-1-1024x726.jpg"
+            }
+        ]
+    },
+    {
+        "id": 11090,
+        "sku": "5024",
+        "name": "طرح قاصدک 2| کد 5024",
+        "type": "variable",
+        "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/Dandelion-2-scaled-1-1024x726.jpg",
+        "status": "publish",
+        "variations": [
+            {
+                "id": 81607,
+                "price": 609000,
+                "attributes": {
+                    "cloth": "jacquard"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/Dandelion-2-scaled-1-1024x726.jpg"
+            },
+            {
+                "id": 81610,
+                "price": 427000,
+                "attributes": {
+                    "cloth": "crepe-bugatti"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/Dandelion-2-scaled-1-1024x726.jpg"
+            },
+            {
+                "id": 81612,
+                "price": 0,
+                "attributes": {
+                    "cloth": "lin-yesna"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/Dandelion-2-scaled-1-1024x726.jpg"
+            },
+            {
+                "id": 81616,
+                "price": 585000,
+                "attributes": {
+                    "cloth": "velvet-overcoat"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/Dandelion-2-scaled-1-1024x726.jpg"
+            },
+            {
+                "id": 81620,
+                "price": 809000,
+                "attributes": {
+                    "cloth": "match-velvet"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/Dandelion-2-scaled-1-1024x726.jpg"
+            }
+        ]
+    },
+    {
+        "id": 11083,
+        "sku": "5023",
+        "name": "طرح قاصدک 1 | کد 5023",
+        "type": "variable",
+        "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/Dandelion-1-scaled-1-1024x726.jpg",
+        "status": "publish",
+        "variations": [
+            {
+                "id": 81615,
+                "price": 609000,
+                "attributes": {
+                    "cloth": "jacquard"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/Dandelion-1-scaled-1-1024x726.jpg"
+            },
+            {
+                "id": 81621,
+                "price": 427000,
+                "attributes": {
+                    "cloth": "crepe-bugatti"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/Dandelion-1-scaled-1-1024x726.jpg"
+            },
+            {
+                "id": 81624,
+                "price": 0,
+                "attributes": {
+                    "cloth": "lin-yesna"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/Dandelion-1-scaled-1-1024x726.jpg"
+            },
+            {
+                "id": 81629,
+                "price": 585000,
+                "attributes": {
+                    "cloth": "velvet-overcoat"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/Dandelion-1-scaled-1-1024x726.jpg"
+            },
+            {
+                "id": 81635,
+                "price": 809000,
+                "attributes": {
+                    "cloth": "match-velvet"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/Dandelion-1-scaled-1-1024x726.jpg"
+            }
+        ]
+    },
+    {
+        "id": 11066,
+        "sku": "5022",
+        "name": "طرح فلامینگو 10 | کد 5022",
+        "type": "variable",
+        "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/Flamingo-10-scaled-1-1024x683.jpg",
+        "status": "publish",
+        "variations": [
+            {
+                "id": 81625,
+                "price": 609000,
+                "attributes": {
+                    "cloth": "jacquard"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/Flamingo-10-scaled-1-1024x683.jpg"
+            },
+            {
+                "id": 81633,
+                "price": 427000,
+                "attributes": {
+                    "cloth": "crepe-bugatti"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/Flamingo-10-scaled-1-1024x683.jpg"
+            },
+            {
+                "id": 81638,
+                "price": 0,
+                "attributes": {
+                    "cloth": "lin-yesna"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/Flamingo-10-scaled-1-1024x683.jpg"
+            },
+            {
+                "id": 81642,
+                "price": 585000,
+                "attributes": {
+                    "cloth": "velvet-overcoat"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/Flamingo-10-scaled-1-1024x683.jpg"
+            },
+            {
+                "id": 81646,
+                "price": 809000,
+                "attributes": {
+                    "cloth": "match-velvet"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/Flamingo-10-scaled-1-1024x683.jpg"
+            }
+        ]
+    },
+    {
+        "id": 11061,
+        "sku": "5021",
+        "name": "طرح فلامینگو 9 | کد 5021",
+        "type": "variable",
+        "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/Flamingo-9-scaled-1-1024x683.jpg",
+        "status": "publish",
+        "variations": [
+            {
+                "id": 81631,
+                "price": 609000,
+                "attributes": {
+                    "cloth": "jacquard"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/Flamingo-9-scaled-1-1024x683.jpg"
+            },
+            {
+                "id": 81639,
+                "price": 427000,
+                "attributes": {
+                    "cloth": "crepe-bugatti"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/Flamingo-9-scaled-1-1024x683.jpg"
+            },
+            {
+                "id": 81643,
+                "price": 0,
+                "attributes": {
+                    "cloth": "lin-yesna"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/Flamingo-9-scaled-1-1024x683.jpg"
+            },
+            {
+                "id": 81647,
+                "price": 585000,
+                "attributes": {
+                    "cloth": "velvet-overcoat"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/Flamingo-9-scaled-1-1024x683.jpg"
+            },
+            {
+                "id": 81649,
+                "price": 809000,
+                "attributes": {
+                    "cloth": "match-velvet"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/Flamingo-9-scaled-1-1024x683.jpg"
+            }
+        ]
+    },
+    {
+        "id": 11054,
+        "sku": "5020",
+        "name": "طرح فلامینگو8 | کد 5020",
+        "type": "variable",
+        "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/Flamingo-8-scaled-1-1024x683.jpg",
+        "status": "publish",
+        "variations": [
+            {
+                "id": 81651,
+                "price": 609000,
+                "attributes": {
+                    "cloth": "jacquard"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/Flamingo-8-scaled-1-1024x683.jpg"
+            },
+            {
+                "id": 81654,
+                "price": 427000,
+                "attributes": {
+                    "cloth": "crepe-bugatti"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/Flamingo-8-scaled-1-1024x683.jpg"
+            },
+            {
+                "id": 81657,
+                "price": 0,
+                "attributes": {
+                    "cloth": "lin-yesna"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/Flamingo-8-scaled-1-1024x683.jpg"
+            },
+            {
+                "id": 81659,
+                "price": 585000,
+                "attributes": {
+                    "cloth": "velvet-overcoat"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/Flamingo-8-scaled-1-1024x683.jpg"
+            },
+            {
+                "id": 81661,
+                "price": 809000,
+                "attributes": {
+                    "cloth": "match-velvet"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/Flamingo-8-scaled-1-1024x683.jpg"
+            }
+        ]
+    },
+    {
+        "id": 11047,
+        "sku": "5019",
+        "name": "طرح فلامینگو 7 | کد 5019",
+        "type": "variable",
+        "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/Flamingo-7-scaled-1-1024x683.jpg",
+        "status": "publish",
+        "variations": [
+            {
+                "id": 81803,
+                "price": 609000,
+                "attributes": {
+                    "cloth": "jacquard"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/Flamingo-7-scaled-1-1024x683.jpg"
+            },
+            {
+                "id": 81806,
+                "price": 427000,
+                "attributes": {
+                    "cloth": "crepe-bugatti"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/Flamingo-7-scaled-1-1024x683.jpg"
+            },
+            {
+                "id": 81808,
+                "price": 0,
+                "attributes": {
+                    "cloth": "lin-yesna"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/Flamingo-7-scaled-1-1024x683.jpg"
+            },
+            {
+                "id": 81810,
+                "price": 585000,
+                "attributes": {
+                    "cloth": "velvet-overcoat"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/Flamingo-7-scaled-1-1024x683.jpg"
+            },
+            {
+                "id": 81814,
+                "price": 809000,
+                "attributes": {
+                    "cloth": "match-velvet"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/Flamingo-7-scaled-1-1024x683.jpg"
+            }
+        ]
+    },
+    {
+        "id": 11030,
+        "sku": "5018",
+        "name": "طرح فلامینگو 6 | کد 5018",
+        "type": "variable",
+        "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/Flamingo-6-scaled-1-1024x683.jpg",
+        "status": "publish",
+        "variations": [
+            {
+                "id": 81813,
+                "price": 609000,
+                "attributes": {
+                    "cloth": "jacquard"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/Flamingo-6-scaled-1-1024x683.jpg"
+            },
+            {
+                "id": 81817,
+                "price": 427000,
+                "attributes": {
+                    "cloth": "crepe-bugatti"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/Flamingo-6-scaled-1-1024x683.jpg"
+            },
+            {
+                "id": 81819,
+                "price": 0,
+                "attributes": {
+                    "cloth": "lin-yesna"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/Flamingo-6-scaled-1-1024x683.jpg"
+            },
+            {
+                "id": 81822,
+                "price": 585000,
+                "attributes": {
+                    "cloth": "velvet-overcoat"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/Flamingo-6-scaled-1-1024x683.jpg"
+            },
+            {
+                "id": 81826,
+                "price": 809000,
+                "attributes": {
+                    "cloth": "match-velvet"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/Flamingo-6-scaled-1-1024x683.jpg"
+            }
+        ]
+    },
+    {
+        "id": 11022,
+        "sku": "7022",
+        "name": "طرح فلامینگو 5 | کد 7022",
+        "type": "variable",
+        "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/Flamingo-5-scaled-1-1024x683.jpg",
+        "status": "draft",
+        "variations": [
+            {
+                "id": 81836,
+                "price": 609000,
+                "attributes": {
+                    "cloth": "jacquard"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/Flamingo-5-scaled-1-1024x683.jpg"
+            },
+            {
+                "id": 81839,
+                "price": 427000,
+                "attributes": {
+                    "cloth": "crepe-bugatti"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/Flamingo-5-scaled-1-1024x683.jpg"
+            },
+            {
+                "id": 81841,
+                "price": 0,
+                "attributes": {
+                    "cloth": "lin-yesna"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/Flamingo-5-scaled-1-1024x683.jpg"
+            },
+            {
+                "id": 81843,
+                "price": 585000,
+                "attributes": {
+                    "cloth": "velvet-overcoat"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/Flamingo-5-scaled-1-1024x683.jpg"
+            },
+            {
+                "id": 81846,
+                "price": 809000,
+                "attributes": {
+                    "cloth": "match-velvet"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/Flamingo-5-scaled-1-1024x683.jpg"
+            }
+        ]
+    },
+    {
+        "id": 11016,
+        "sku": "5016",
+        "name": "طرح فلامینگو 4| کد 5016",
+        "type": "variable",
+        "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/Flamingo-4-1-scaled-1-1024x683.jpg",
+        "status": "publish",
+        "variations": [
+            {
+                "id": 81823,
+                "price": 609000,
+                "attributes": {
+                    "cloth": "jacquard"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/Flamingo-4-1-scaled-1-1024x683.jpg"
+            },
+            {
+                "id": 81828,
+                "price": 427000,
+                "attributes": {
+                    "cloth": "crepe-bugatti"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/Flamingo-4-1-scaled-1-1024x683.jpg"
+            },
+            {
+                "id": 81830,
+                "price": 0,
+                "attributes": {
+                    "cloth": "lin-yesna"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/Flamingo-4-1-scaled-1-1024x683.jpg"
+            },
+            {
+                "id": 81832,
+                "price": 585000,
+                "attributes": {
+                    "cloth": "velvet-overcoat"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/Flamingo-4-1-scaled-1-1024x683.jpg"
+            },
+            {
+                "id": 81834,
+                "price": 809000,
+                "attributes": {
+                    "cloth": "match-velvet"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/Flamingo-4-1-scaled-1-1024x683.jpg"
+            }
+        ]
+    },
+    {
+        "id": 11009,
+        "sku": "5013",
+        "name": "طرح فلامینگو 1 | کد 5013",
+        "type": "variable",
+        "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/Flamingo-1-scaled-1-1024x683.jpg",
+        "status": "publish",
+        "variations": [
+            {
+                "id": 81847,
+                "price": 609000,
+                "attributes": {
+                    "cloth": "jacquard"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/Flamingo-1-scaled-1-1024x683.jpg"
+            },
+            {
+                "id": 81850,
+                "price": 427000,
+                "attributes": {
+                    "cloth": "crepe-bugatti"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/Flamingo-1-scaled-1-1024x683.jpg"
+            },
+            {
+                "id": 81852,
+                "price": 0,
+                "attributes": {
+                    "cloth": "lin-yesna"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/Flamingo-1-scaled-1-1024x683.jpg"
+            },
+            {
+                "id": 81856,
+                "price": 585000,
+                "attributes": {
+                    "cloth": "velvet-overcoat"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/Flamingo-1-scaled-1-1024x683.jpg"
+            },
+            {
+                "id": 81860,
+                "price": 809000,
+                "attributes": {
+                    "cloth": "match-velvet"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/Flamingo-1-scaled-1-1024x683.jpg"
+            }
+        ]
+    },
+    {
+        "id": 11002,
+        "sku": "5011",
+        "name": "طرح بلبل | کد 5011",
+        "type": "variable",
+        "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/gol-abi-12-scaled-1-1024x683.jpg",
+        "status": "publish",
+        "variations": [
+            {
+                "id": 81855,
+                "price": 609000,
+                "attributes": {
+                    "cloth": "jacquard"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/gol-abi-12-scaled-1-1024x683.jpg"
+            },
+            {
+                "id": 81861,
+                "price": 427000,
+                "attributes": {
+                    "cloth": "crepe-bugatti"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/gol-abi-12-scaled-1-1024x683.jpg"
+            },
+            {
+                "id": 81863,
+                "price": 0,
+                "attributes": {
+                    "cloth": "lin-yesna"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/gol-abi-12-scaled-1-1024x683.jpg"
+            },
+            {
+                "id": 81866,
+                "price": 585000,
+                "attributes": {
+                    "cloth": "velvet-overcoat"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/gol-abi-12-scaled-1-1024x683.jpg"
+            },
+            {
+                "id": 81870,
+                "price": 809000,
+                "attributes": {
+                    "cloth": "match-velvet"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/gol-abi-12-scaled-1-1024x683.jpg"
+            }
+        ]
+    },
+    {
+        "id": 10876,
+        "sku": "7041",
+        "name": "طرح لیمو | کد 7041",
+        "type": "variable",
+        "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/5028-1024x1024.jpg",
+        "status": "draft",
+        "variations": [
+            {
+                "id": 81867,
+                "price": 609000,
+                "attributes": {
+                    "cloth": "jacquard"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/5028-1024x1024.jpg"
+            },
+            {
+                "id": 81872,
+                "price": 427000,
+                "attributes": {
+                    "cloth": "crepe-bugatti"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/5028-1024x1024.jpg"
+            },
+            {
+                "id": 81876,
+                "price": 0,
+                "attributes": {
+                    "cloth": "lin-yesna"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/5028-1024x1024.jpg"
+            },
+            {
+                "id": 81880,
+                "price": 585000,
+                "attributes": {
+                    "cloth": "velvet-overcoat"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/5028-1024x1024.jpg"
+            },
+            {
+                "id": 81884,
+                "price": 809000,
+                "attributes": {
+                    "cloth": "match-velvet"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/5028-1024x1024.jpg"
+            }
+        ]
+    },
+    {
+        "id": 10868,
+        "sku": "7040",
+        "name": "طرح لیمو | کد 7040",
+        "type": "variable",
+        "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/5026-1024x1024.jpg",
+        "status": "draft",
+        "variations": [
+            {
+                "id": 81875,
+                "price": 609000,
+                "attributes": {
+                    "cloth": "jacquard"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/5026-1024x1024.jpg"
+            },
+            {
+                "id": 81881,
+                "price": 427000,
+                "attributes": {
+                    "cloth": "crepe-bugatti"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/5026-1024x1024.jpg"
+            },
+            {
+                "id": 81885,
+                "price": 0,
+                "attributes": {
+                    "cloth": "lin-yesna"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/5026-1024x1024.jpg"
+            },
+            {
+                "id": 81887,
+                "price": 585000,
+                "attributes": {
+                    "cloth": "velvet-overcoat"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/5026-1024x1024.jpg"
+            },
+            {
+                "id": 81890,
+                "price": 809000,
+                "attributes": {
+                    "cloth": "match-velvet"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/5026-1024x1024.jpg"
+            }
+        ]
+    },
+    {
+        "id": 10860,
+        "sku": "7038",
+        "name": "طرح لیمو | کد 7038",
+        "type": "variable",
+        "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/5024-1024x1024.jpg",
+        "status": "publish",
+        "variations": [
+            {
+                "id": 81891,
+                "price": 609000,
+                "attributes": {
+                    "cloth": "jacquard"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/5024-1024x1024.jpg"
+            },
+            {
+                "id": 81894,
+                "price": 427000,
+                "attributes": {
+                    "cloth": "crepe-bugatti"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/5024-1024x1024.jpg"
+            },
+            {
+                "id": 81896,
+                "price": 0,
+                "attributes": {
+                    "cloth": "lin-yesna"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/5024-1024x1024.jpg"
+            },
+            {
+                "id": 81898,
+                "price": 585000,
+                "attributes": {
+                    "cloth": "velvet-overcoat"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/5024-1024x1024.jpg"
+            },
+            {
+                "id": 81901,
+                "price": 809000,
+                "attributes": {
+                    "cloth": "match-velvet"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/5024-1024x1024.jpg"
+            }
+        ]
+    },
+    {
+        "id": 10844,
+        "sku": "7037",
+        "name": "طرح لیمو | کد 7037",
+        "type": "variable",
+        "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/5023-1024x1024.jpg",
+        "status": "draft",
+        "variations": [
+            {
+                "id": 81902,
+                "price": 609000,
+                "attributes": {
+                    "cloth": "jacquard"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/5023-1024x1024.jpg"
+            },
+            {
+                "id": 81906,
+                "price": 427000,
+                "attributes": {
+                    "cloth": "crepe-bugatti"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/5023-1024x1024.jpg"
+            },
+            {
+                "id": 81910,
+                "price": 0,
+                "attributes": {
+                    "cloth": "lin-yesna"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/5023-1024x1024.jpg"
+            },
+            {
+                "id": 81915,
+                "price": 585000,
+                "attributes": {
+                    "cloth": "velvet-overcoat"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/5023-1024x1024.jpg"
+            },
+            {
+                "id": 81919,
+                "price": 809000,
+                "attributes": {
+                    "cloth": "match-velvet"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/5023-1024x1024.jpg"
+            }
+        ]
+    },
+    {
+        "id": 10836,
+        "sku": "7035",
+        "name": "طرح آلبالویی | کد 7035",
+        "type": "variable",
+        "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/5022-1024x1024.jpg",
+        "status": "draft",
+        "variations": [
+            {
+                "id": 81907,
+                "price": 609000,
+                "attributes": {
+                    "cloth": "jacquard"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/5022-1024x1024.jpg"
+            },
+            {
+                "id": 81912,
+                "price": 427000,
+                "attributes": {
+                    "cloth": "crepe-bugatti"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/5022-1024x1024.jpg"
+            },
+            {
+                "id": 81916,
+                "price": 0,
+                "attributes": {
+                    "cloth": "lin-yesna"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/5022-1024x1024.jpg"
+            },
+            {
+                "id": 81921,
+                "price": 585000,
+                "attributes": {
+                    "cloth": "velvet-overcoat"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/5022-1024x1024.jpg"
+            },
+            {
+                "id": 81925,
+                "price": 809000,
+                "attributes": {
+                    "cloth": "match-velvet"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/5022-1024x1024.jpg"
+            }
+        ]
+    },
+    {
+        "id": 10828,
+        "sku": "7034",
+        "name": "طرح آلبالویی | کد  7034",
+        "type": "variable",
+        "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/5021-1024x1024.jpg",
+        "status": "publish",
+        "variations": [
+            {
+                "id": 81922,
+                "price": 609000,
+                "attributes": {
+                    "cloth": "jacquard"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/5021-1024x1024.jpg"
+            },
+            {
+                "id": 81929,
+                "price": 427000,
+                "attributes": {
+                    "cloth": "crepe-bugatti"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/5021-1024x1024.jpg"
+            },
+            {
+                "id": 81933,
+                "price": 0,
+                "attributes": {
+                    "cloth": "lin-yesna"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/5021-1024x1024.jpg"
+            },
+            {
+                "id": 81937,
+                "price": 585000,
+                "attributes": {
+                    "cloth": "velvet-overcoat"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/5021-1024x1024.jpg"
+            },
+            {
+                "id": 81943,
+                "price": 809000,
+                "attributes": {
+                    "cloth": "match-velvet"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/5021-1024x1024.jpg"
+            }
+        ]
+    },
+    {
+        "id": 10820,
+        "sku": "7032",
+        "name": "طرح گیلاس | کد 7032",
+        "type": "variable",
+        "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/5020-1024x1024.jpg",
+        "status": "draft",
+        "variations": [
+            {
+                "id": 81928,
+                "price": 609000,
+                "attributes": {
+                    "cloth": "jacquard"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/5020-1024x1024.jpg"
+            },
+            {
+                "id": 81934,
+                "price": 427000,
+                "attributes": {
+                    "cloth": "crepe-bugatti"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/5020-1024x1024.jpg"
+            },
+            {
+                "id": 81939,
+                "price": 0,
+                "attributes": {
+                    "cloth": "lin-yesna"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/5020-1024x1024.jpg"
+            },
+            {
+                "id": 81945,
+                "price": 585000,
+                "attributes": {
+                    "cloth": "velvet-overcoat"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/5020-1024x1024.jpg"
+            },
+            {
+                "id": 81949,
+                "price": 809000,
+                "attributes": {
+                    "cloth": "match-velvet"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/5020-1024x1024.jpg"
+            }
+        ]
+    },
+    {
+        "id": 10806,
+        "sku": "7031",
+        "name": "طرح گیلاس | کد  7031",
+        "type": "variable",
+        "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/5018-1024x1024.jpg",
+        "status": "draft",
+        "variations": [
+            {
+                "id": 81941,
+                "price": 609000,
+                "attributes": {
+                    "cloth": "jacquard"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/5018-1024x1024.jpg"
+            },
+            {
+                "id": 81948,
+                "price": 427000,
+                "attributes": {
+                    "cloth": "crepe-bugatti"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/5018-1024x1024.jpg"
+            },
+            {
+                "id": 81953,
+                "price": 0,
+                "attributes": {
+                    "cloth": "lin-yesna"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/5018-1024x1024.jpg"
+            },
+            {
+                "id": 81956,
+                "price": 585000,
+                "attributes": {
+                    "cloth": "velvet-overcoat"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/5018-1024x1024.jpg"
+            },
+            {
+                "id": 81960,
+                "price": 809000,
+                "attributes": {
+                    "cloth": "match-velvet"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/5018-1024x1024.jpg"
+            }
+        ]
+    },
+    {
+        "id": 10790,
+        "sku": "4089",
+        "name": "طرح خال خالی | کد 4089",
+        "type": "variable",
+        "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/4089-1024x1024.jpg",
+        "status": "publish",
+        "variations": [
+            {
+                "id": 81966,
+                "price": 609000,
+                "attributes": {
+                    "cloth": "jacquard"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/4089-1024x1024.jpg"
+            },
+            {
+                "id": 81972,
+                "price": 427000,
+                "attributes": {
+                    "cloth": "crepe-bugatti"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/4089-1024x1024.jpg"
+            },
+            {
+                "id": 81975,
+                "price": 0,
+                "attributes": {
+                    "cloth": "lin-yesna"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/4089-1024x1024.jpg"
+            },
+            {
+                "id": 81979,
+                "price": 585000,
+                "attributes": {
+                    "cloth": "velvet-overcoat"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/4089-1024x1024.jpg"
+            },
+            {
+                "id": 81983,
+                "price": 809000,
+                "attributes": {
+                    "cloth": "match-velvet"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/4089-1024x1024.jpg"
+            }
+        ]
+    },
+    {
+        "id": 10795,
+        "sku": "7030",
+        "name": "طرح آلبالویی | کد 7030",
+        "type": "variable",
+        "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/5015-1024x1024.jpg",
+        "status": "publish",
+        "variations": [
+            {
+                "id": 81952,
+                "price": 609000,
+                "attributes": {
+                    "cloth": "jacquard"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/5015-1024x1024.jpg"
+            },
+            {
+                "id": 81959,
+                "price": 427000,
+                "attributes": {
+                    "cloth": "crepe-bugatti"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/5015-1024x1024.jpg"
+            },
+            {
+                "id": 81962,
+                "price": 0,
+                "attributes": {
+                    "cloth": "lin-yesna"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/5015-1024x1024.jpg"
+            },
+            {
+                "id": 81965,
+                "price": 585000,
+                "attributes": {
+                    "cloth": "velvet-overcoat"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/5015-1024x1024.jpg"
+            },
+            {
+                "id": 81969,
+                "price": 809000,
+                "attributes": {
+                    "cloth": "match-velvet"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/5015-1024x1024.jpg"
+            }
+        ]
+    },
+    {
+        "id": 10770,
+        "sku": "4087",
+        "name": "طرح سیندرلا | کد 4087",
+        "type": "variable",
+        "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/4087-1024x1024.jpg",
+        "status": "publish",
+        "variations": [
+            {
+                "id": 81973,
+                "price": 609000,
+                "attributes": {
+                    "cloth": "jacquard"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/4087-1024x1024.jpg"
+            },
+            {
+                "id": 81980,
+                "price": 427000,
+                "attributes": {
+                    "cloth": "crepe-bugatti"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/4087-1024x1024.jpg"
+            },
+            {
+                "id": 81985,
+                "price": 0,
+                "attributes": {
+                    "cloth": "lin-yesna"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/4087-1024x1024.jpg"
+            },
+            {
+                "id": 81989,
+                "price": 585000,
+                "attributes": {
+                    "cloth": "velvet-overcoat"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/4087-1024x1024.jpg"
+            },
+            {
+                "id": 81993,
+                "price": 809000,
+                "attributes": {
+                    "cloth": "match-velvet"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/4087-1024x1024.jpg"
+            }
+        ]
+    },
+    {
+        "id": 10766,
+        "sku": "4086",
+        "name": "طرح اب رنگی| کد 4086",
+        "type": "variable",
+        "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/4086-1024x1024.jpg",
+        "status": "publish",
+        "variations": [
+            {
+                "id": 81986,
+                "price": 609000,
+                "attributes": {
+                    "cloth": "jacquard"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/4086-1024x1024.jpg"
+            },
+            {
+                "id": 81992,
+                "price": 427000,
+                "attributes": {
+                    "cloth": "crepe-bugatti"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/4086-1024x1024.jpg"
+            },
+            {
+                "id": 81995,
+                "price": 0,
+                "attributes": {
+                    "cloth": "lin-yesna"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/4086-1024x1024.jpg"
+            },
+            {
+                "id": 81997,
+                "price": 585000,
+                "attributes": {
+                    "cloth": "velvet-overcoat"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/4086-1024x1024.jpg"
+            },
+            {
+                "id": 82000,
+                "price": 809000,
+                "attributes": {
+                    "cloth": "match-velvet"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/4086-1024x1024.jpg"
+            }
+        ]
+    },
+    {
+        "id": 10758,
+        "sku": "4085",
+        "name": "طرح میکی و موس | کد 4085",
+        "type": "variable",
+        "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/4085-1024x1024.jpg",
+        "status": "publish",
+        "variations": [
+            {
+                "id": 82001,
+                "price": 609000,
+                "attributes": {
+                    "cloth": "jacquard"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/4085-1024x1024.jpg"
+            },
+            {
+                "id": 82004,
+                "price": 427000,
+                "attributes": {
+                    "cloth": "crepe-bugatti"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/4085-1024x1024.jpg"
+            },
+            {
+                "id": 82006,
+                "price": 0,
+                "attributes": {
+                    "cloth": "lin-yesna"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/4085-1024x1024.jpg"
+            },
+            {
+                "id": 82009,
+                "price": 585000,
+                "attributes": {
+                    "cloth": "velvet-overcoat"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/4085-1024x1024.jpg"
+            },
+            {
+                "id": 82013,
+                "price": 809000,
+                "attributes": {
+                    "cloth": "match-velvet"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/4085-1024x1024.jpg"
+            }
+        ]
+    },
+    {
+        "id": 10750,
+        "sku": "4084",
+        "name": "طرح چیریکی | کد 4084",
+        "type": "variable",
+        "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/4084-1024x1024.jpg",
+        "status": "publish",
+        "variations": [
+            {
+                "id": 82010,
+                "price": 609000,
+                "attributes": {
+                    "cloth": "jacquard"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/4084-1024x1024.jpg"
+            },
+            {
+                "id": 82015,
+                "price": 427000,
+                "attributes": {
+                    "cloth": "crepe-bugatti"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/4084-1024x1024.jpg"
+            },
+            {
+                "id": 82017,
+                "price": 0,
+                "attributes": {
+                    "cloth": "lin-yesna"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/4084-1024x1024.jpg"
+            },
+            {
+                "id": 82019,
+                "price": 585000,
+                "attributes": {
+                    "cloth": "velvet-overcoat"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/4084-1024x1024.jpg"
+            },
+            {
+                "id": 82021,
+                "price": 809000,
+                "attributes": {
+                    "cloth": "match-velvet"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/4084-1024x1024.jpg"
+            }
+        ]
+    },
+    {
+        "id": 10736,
+        "sku": "4083",
+        "name": "طرح سنتی | کد 4083",
+        "type": "variable",
+        "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/4083-1024x1024.jpg",
+        "status": "publish",
+        "variations": [
+            {
+                "id": 82252,
+                "price": 609000,
+                "attributes": {
+                    "cloth": "jacquard"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/4083-1024x1024.jpg"
+            },
+            {
+                "id": 82259,
+                "price": 427000,
+                "attributes": {
+                    "cloth": "crepe-bugatti"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/4083-1024x1024.jpg"
+            },
+            {
+                "id": 82263,
+                "price": 0,
+                "attributes": {
+                    "cloth": "lin-yesna"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/4083-1024x1024.jpg"
+            },
+            {
+                "id": 82269,
+                "price": 585000,
+                "attributes": {
+                    "cloth": "velvet-overcoat"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/4083-1024x1024.jpg"
+            },
+            {
+                "id": 82277,
+                "price": 809000,
+                "attributes": {
+                    "cloth": "match-velvet"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/4083-1024x1024.jpg"
+            }
+        ]
+    },
+    {
+        "id": 10728,
+        "sku": "4082",
+        "name": "طرح کاشی سنتی  | کد 4082",
+        "type": "variable",
+        "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/4082-1024x1024.jpg",
+        "status": "publish",
+        "variations": [
+            {
+                "id": 82271,
+                "price": 609000,
+                "attributes": {
+                    "cloth": "jacquard"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/4082-1024x1024.jpg"
+            },
+            {
+                "id": 82283,
+                "price": 427000,
+                "attributes": {
+                    "cloth": "crepe-bugatti"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/4082-1024x1024.jpg"
+            },
+            {
+                "id": 82289,
+                "price": 0,
+                "attributes": {
+                    "cloth": "lin-yesna"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/4082-1024x1024.jpg"
+            },
+            {
+                "id": 82295,
+                "price": 585000,
+                "attributes": {
+                    "cloth": "velvet-overcoat"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/4082-1024x1024.jpg"
+            },
+            {
+                "id": 82300,
+                "price": 809000,
+                "attributes": {
+                    "cloth": "match-velvet"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/4082-1024x1024.jpg"
+            }
+        ]
+    },
+    {
+        "id": 10720,
+        "sku": "4081",
+        "name": "طرح دایناسور | کد 4081",
+        "type": "variable",
+        "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/4081-1024x1024.jpg",
+        "status": "publish",
+        "variations": [
+            {
+                "id": 82284,
+                "price": 609000,
+                "attributes": {
+                    "cloth": "jacquard"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/4081-1024x1024.jpg"
+            },
+            {
+                "id": 82293,
+                "price": 427000,
+                "attributes": {
+                    "cloth": "crepe-bugatti"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/4081-1024x1024.jpg"
+            },
+            {
+                "id": 82299,
+                "price": 0,
+                "attributes": {
+                    "cloth": "lin-yesna"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/4081-1024x1024.jpg"
+            },
+            {
+                "id": 82304,
+                "price": 585000,
+                "attributes": {
+                    "cloth": "velvet-overcoat"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/4081-1024x1024.jpg"
+            },
+            {
+                "id": 82309,
+                "price": 809000,
+                "attributes": {
+                    "cloth": "match-velvet"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/4081-1024x1024.jpg"
+            }
+        ]
+    },
+    {
+        "id": 10697,
+        "sku": "4079",
+        "name": "طرح سنتی | کد 4079",
+        "type": "variable",
+        "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/4079-1024x1024.jpg",
+        "status": "publish",
+        "variations": [
+            {
+                "id": 82307,
+                "price": 609000,
+                "attributes": {
+                    "cloth": "jacquard"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/4079-1024x1024.jpg"
+            },
+            {
+                "id": 82316,
+                "price": 427000,
+                "attributes": {
+                    "cloth": "crepe-bugatti"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/4079-1024x1024.jpg"
+            },
+            {
+                "id": 82322,
+                "price": 0,
+                "attributes": {
+                    "cloth": "lin-yesna"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/4079-1024x1024.jpg"
+            },
+            {
+                "id": 82328,
+                "price": 585000,
+                "attributes": {
+                    "cloth": "velvet-overcoat"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/4079-1024x1024.jpg"
+            },
+            {
+                "id": 82333,
+                "price": 809000,
+                "attributes": {
+                    "cloth": "match-velvet"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/4079-1024x1024.jpg"
+            }
+        ]
+    },
+    {
+        "id": 10693,
+        "sku": "4078",
+        "name": "طرح ماه و ستاره| کد 4078",
+        "type": "variable",
+        "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/4078-1024x1024.jpg",
+        "status": "publish",
+        "variations": [
+            {
+                "id": 82306,
+                "price": 609000,
+                "attributes": {
+                    "cloth": "jacquard"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/4078-1024x1024.jpg"
+            },
+            {
+                "id": 82313,
+                "price": 427000,
+                "attributes": {
+                    "cloth": "crepe-bugatti"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/4078-1024x1024.jpg"
+            },
+            {
+                "id": 82317,
+                "price": 0,
+                "attributes": {
+                    "cloth": "lin-yesna"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/4078-1024x1024.jpg"
+            },
+            {
+                "id": 82323,
+                "price": 585000,
+                "attributes": {
+                    "cloth": "velvet-overcoat"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/4078-1024x1024.jpg"
+            },
+            {
+                "id": 82329,
+                "price": 809000,
+                "attributes": {
+                    "cloth": "match-velvet"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/4078-1024x1024.jpg"
+            }
+        ]
+    },
+    {
+        "id": 10686,
+        "sku": "4077",
+        "name": "طرح  چیریکی | کد 4077",
+        "type": "variable",
+        "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/4077-1024x1024.jpg",
+        "status": "publish",
+        "variations": [
+            {
+                "id": 82318,
+                "price": 609000,
+                "attributes": {
+                    "cloth": "jacquard"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/4077-1024x1024.jpg"
+            },
+            {
+                "id": 82327,
+                "price": 427000,
+                "attributes": {
+                    "cloth": "crepe-bugatti"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/4077-1024x1024.jpg"
+            },
+            {
+                "id": 82332,
+                "price": 0,
+                "attributes": {
+                    "cloth": "lin-yesna"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/4077-1024x1024.jpg"
+            },
+            {
+                "id": 82336,
+                "price": 585000,
+                "attributes": {
+                    "cloth": "velvet-overcoat"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/4077-1024x1024.jpg"
+            },
+            {
+                "id": 82341,
+                "price": 809000,
+                "attributes": {
+                    "cloth": "match-velvet"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/4077-1024x1024.jpg"
+            }
+        ]
+    },
+    {
         "id": 10678,
         "sku": "4076",
         "name": "طرح قلب | کد  4076",
         "type": "variable",
         "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/4076-1024x1024.jpg",
+        "status": "publish",
         "variations": [
             {
                 "id": 82337,
@@ -59,6 +2150,7 @@
         "name": "طرح  آلبالویی | کد 4074",
         "type": "variable",
         "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/4074-1-1024x1024.jpg",
+        "status": "publish",
         "variations": [
             {
                 "id": 82348,
@@ -113,6 +2205,7 @@
         "name": "طرح آناناس  | کد 4073-3",
         "type": "variable",
         "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/4073-1024x1024.jpg",
+        "status": "publish",
         "variations": [
             {
                 "id": 82354,
@@ -167,6 +2260,7 @@
         "name": "طرح آناناس | کد 4073-2",
         "type": "variable",
         "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/4073.2-1024x1024.jpg",
+        "status": "publish",
         "variations": [
             {
                 "id": 82370,
@@ -221,6 +2315,7 @@
         "name": "طرح آناناس | کد 4073-1",
         "type": "variable",
         "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/4073.1-1024x1024.jpg",
+        "status": "publish",
         "variations": [
             {
                 "id": 82379,
@@ -275,6 +2370,7 @@
         "name": "طرح پو | کد 4072",
         "type": "variable",
         "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/4072-1024x1024.jpg",
+        "status": "publish",
         "variations": [
             {
                 "id": 82392,
@@ -329,6 +2425,7 @@
         "name": "طرح کاوی | کد 4070",
         "type": "variable",
         "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/4070-1024x1024.jpg",
+        "status": "publish",
         "variations": [
             {
                 "id": 82403,
@@ -383,6 +2480,7 @@
         "name": "طرح پیه دوپل| کد 4069",
         "type": "variable",
         "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/4069-1024x1024.jpg",
+        "status": "publish",
         "variations": [
             {
                 "id": 82415,
@@ -437,6 +2535,7 @@
         "name": "طرح بری بری| کد 4068",
         "type": "variable",
         "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/4068-1-1024x1024.jpg",
+        "status": "publish",
         "variations": [
             {
                 "id": 82424,
@@ -491,6 +2590,7 @@
         "name": "طرح مینی و موس  | کد 4067",
         "type": "variable",
         "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/4067-1024x1024.jpg",
+        "status": "publish",
         "variations": [
             {
                 "id": 82429,
@@ -545,6 +2645,7 @@
         "name": "طرح دامپزشک | کد 4064",
         "type": "variable",
         "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/4064-1024x1024.jpg",
+        "status": "publish",
         "variations": [
             {
                 "id": 82436,
@@ -599,6 +2700,7 @@
         "name": "طرح گل | کد 4062",
         "type": "variable",
         "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/4062-1024x1024.jpg",
+        "status": "publish",
         "variations": [
             {
                 "id": 82465,
@@ -653,6 +2755,7 @@
         "name": "طرح گل | کد 4061",
         "type": "variable",
         "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/4061-1024x1024.jpg",
+        "status": "publish",
         "variations": [
             {
                 "id": 82477,
@@ -707,6 +2810,7 @@
         "name": "طرح میکی و موس و مینی موس  | کد  4057",
         "type": "variable",
         "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/4057-1024x1024.jpg",
+        "status": "publish",
         "variations": [
             {
                 "id": 82486,
@@ -761,6 +2865,7 @@
         "name": "طرح میکی و موس | کد 4056",
         "type": "variable",
         "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/4056-1024x1024.jpg",
+        "status": "publish",
         "variations": [
             {
                 "id": 82644,
@@ -815,6 +2920,7 @@
         "name": "طرح میکی و موس | کد 4055",
         "type": "variable",
         "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/4055-1024x1024.jpg",
+        "status": "publish",
         "variations": [
             {
                 "id": 82651,
@@ -869,6 +2975,7 @@
         "name": "طرح هاوایی| کد 4030",
         "type": "variable",
         "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/4030-1024x1024.jpg",
+        "status": "publish",
         "variations": [
             {
                 "id": 82666,
@@ -918,11 +3025,67 @@
         ]
     },
     {
+        "id": 10507,
+        "sku": "",
+        "name": "طرح مینی و موس | کد 4023",
+        "type": "variable",
+        "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/4023-1024x1024.jpg",
+        "status": "draft",
+        "variations": [
+            {
+                "id": 82705,
+                "price": 609000,
+                "attributes": {
+                    "cloth": "jacquard"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/4023-1024x1024.jpg"
+            },
+            {
+                "id": 82714,
+                "price": 427000,
+                "attributes": {
+                    "cloth": "crepe-bugatti"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/4023-1024x1024.jpg"
+            },
+            {
+                "id": 82722,
+                "price": 0,
+                "attributes": {
+                    "cloth": "lin-yesna"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/4023-1024x1024.jpg"
+            },
+            {
+                "id": 82733,
+                "price": 585000,
+                "attributes": {
+                    "cloth": "velvet-overcoat"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/4023-1024x1024.jpg"
+            },
+            {
+                "id": 82744,
+                "price": 809000,
+                "attributes": {
+                    "cloth": "match-velvet"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/4023-1024x1024.jpg"
+            }
+        ]
+    },
+    {
         "id": 10499,
         "sku": "3046",
         "name": "طرح یونیکورن | کد 3046",
         "type": "variable",
         "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/3046-1024x1024.jpg",
+        "status": "publish",
         "variations": [
             {
                 "id": 82719,
@@ -972,11 +3135,67 @@
         ]
     },
     {
+        "id": 10485,
+        "sku": "",
+        "name": "طرح نت موسیقی| کد 6191",
+        "type": "variable",
+        "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/3045-1024x1024.jpg",
+        "status": "draft",
+        "variations": [
+            {
+                "id": 82735,
+                "price": 609000,
+                "attributes": {
+                    "cloth": "jacquard"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/3045-1024x1024.jpg"
+            },
+            {
+                "id": 82749,
+                "price": 427000,
+                "attributes": {
+                    "cloth": "crepe-bugatti"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/3045-1024x1024.jpg"
+            },
+            {
+                "id": 82762,
+                "price": 0,
+                "attributes": {
+                    "cloth": "lin-yesna"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/3045-1024x1024.jpg"
+            },
+            {
+                "id": 82773,
+                "price": 585000,
+                "attributes": {
+                    "cloth": "velvet-overcoat"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/3045-1024x1024.jpg"
+            },
+            {
+                "id": 82786,
+                "price": 809000,
+                "attributes": {
+                    "cloth": "match-velvet"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/3045-1024x1024.jpg"
+            }
+        ]
+    },
+    {
         "id": 10477,
         "sku": "3043",
         "name": "طرح روباه | کد 3043",
         "type": "variable",
         "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/3043-1024x1024.jpg",
+        "status": "publish",
         "variations": [
             {
                 "id": 82750,
@@ -1031,6 +3250,7 @@
         "name": "طرح تدی | کد 3042",
         "type": "variable",
         "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/3042-1024x1024.jpg",
+        "status": "publish",
         "variations": [
             {
                 "id": 82767,
@@ -1085,6 +3305,7 @@
         "name": "طرح مینی و موس | کد 3039",
         "type": "variable",
         "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/3039-1024x1024.jpg",
+        "status": "publish",
         "variations": [
             {
                 "id": 82784,
@@ -1139,6 +3360,7 @@
         "name": "طرح کیتی اشرافی قرمز| کد 5071",
         "type": "variable",
         "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/5071-scaled-1-1024x861.jpg",
+        "status": "publish",
         "variations": [
             {
                 "id": 82809,
@@ -1193,6 +3415,7 @@
         "name": "طرح اخ تو شب یلدای منی| کد 5082",
         "type": "variable",
         "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/5082-scaled-1-1024x861.jpg",
+        "status": "publish",
         "variations": [
             {
                 "id": 82824,
@@ -1247,6 +3470,7 @@
         "name": "طرح اخ تو شب یلدایی منی | کد 5081",
         "type": "variable",
         "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/5081-scaled-2-1024x861.jpg",
+        "status": "publish",
         "variations": [
             {
                 "id": 82834,
@@ -1301,6 +3525,7 @@
         "name": "طرح گل بابونه عروسکی| کد 5072",
         "type": "variable",
         "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/5072-scaled-1-1024x861.jpg",
+        "status": "publish",
         "variations": [
             {
                 "id": 82861,
@@ -1355,6 +3580,7 @@
         "name": "طرح پلید رنگی (چهارخونه رنگی) | کد 5070",
         "type": "variable",
         "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/5070-scaled-1-1024x861.jpg",
+        "status": "publish",
         "variations": [
             {
                 "id": 82875,
@@ -1409,6 +3635,7 @@
         "name": "طرح هندسی گلدونی| کد 5066",
         "type": "variable",
         "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/5066-scaled-1-1024x861.jpg",
+        "status": "publish",
         "variations": [
             {
                 "id": 82898,
@@ -1463,6 +3690,7 @@
         "name": "طرح مایکل کورسMK | کد 5069",
         "type": "variable",
         "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/5069-scaled-1-1024x861.jpg",
+        "status": "publish",
         "variations": [
             {
                 "id": 82911,
@@ -1517,6 +3745,7 @@
         "name": "طرح باندانا سفید| کد 5067",
         "type": "variable",
         "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/5067-scaled-1-1024x861.jpg",
+        "status": "publish",
         "variations": [
             {
                 "id": 82924,
@@ -1571,6 +3800,7 @@
         "name": "طرح باندانا مشکی| کد 5065",
         "type": "variable",
         "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/5065-1-scaled-1-1024x861.jpg",
+        "status": "publish",
         "variations": [
             {
                 "id": 82938,
@@ -1625,6 +3855,7 @@
         "name": "طرح میکی موس و گوچی شکلاتی| کد 5064",
         "type": "variable",
         "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/5064-1-scaled-1-1024x861.jpg",
+        "status": "publish",
         "variations": [
             {
                 "id": 82947,
@@ -1679,6 +3910,7 @@
         "name": "طرح کهکشان گلگسی| کد 5063",
         "type": "variable",
         "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/5063-1-scaled-1-1024x861.jpg",
+        "status": "publish",
         "variations": [
             {
                 "id": 82957,
@@ -1733,6 +3965,7 @@
         "name": "طرح تدی لاین فرندز کرم| کد 5062",
         "type": "variable",
         "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/5062-1-scaled-1-1024x861.jpg",
+        "status": "publish",
         "variations": [
             {
                 "id": 83126,
@@ -1787,6 +4020,7 @@
         "name": "طرح تدی برون لاین فرندز مشکی| کد 5061",
         "type": "variable",
         "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/5061-1-scaled-1-1024x861.jpg",
+        "status": "publish",
         "variations": [
             {
                 "id": 83144,
@@ -1841,6 +4075,7 @@
         "name": "طرح اناری ریز| کد 5060",
         "type": "variable",
         "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/5060-scaled-1-1024x861.jpg",
+        "status": "publish",
         "variations": [
             {
                 "id": 83168,
@@ -1895,6 +4130,7 @@
         "name": "طرح کریسمس| کد 5089",
         "type": "variable",
         "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/5089-scaled-1-1024x861.jpg",
+        "status": "publish",
         "variations": [
             {
                 "id": 83182,
@@ -1949,6 +4185,7 @@
         "name": "طرح کریسمس  | کد  5091",
         "type": "variable",
         "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/5091-scaled-1-1024x861.jpg",
+        "status": "publish",
         "variations": [
             {
                 "id": 83203,
@@ -2003,6 +4240,7 @@
         "name": "طرح کریسمس | کد 5090",
         "type": "variable",
         "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/5090-scaled-1-1024x861.jpg",
+        "status": "publish",
         "variations": [
             {
                 "id": 83220,
@@ -2057,6 +4295,7 @@
         "name": "طرح کریسمس| کد 5088",
         "type": "variable",
         "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/5088-scaled-1-1024x861.jpg",
+        "status": "publish",
         "variations": [
             {
                 "id": 83243,
@@ -2111,6 +4350,7 @@
         "name": "طرح کریسمس | کد  5086",
         "type": "variable",
         "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/5086-scaled-1-1024x861.jpg",
+        "status": "publish",
         "variations": [
             {
                 "id": 83302,
@@ -2165,6 +4405,7 @@
         "name": "طرح کریسمس | کد 5087",
         "type": "variable",
         "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/5087-scaled-1-1024x861.jpg",
+        "status": "publish",
         "variations": [
             {
                 "id": 83264,
@@ -2219,6 +4460,7 @@
         "name": "طرح کریسمس | کد 5085",
         "type": "variable",
         "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/5085-scaled-1-1024x861.jpg",
+        "status": "publish",
         "variations": [
             {
                 "id": 83303,
@@ -2273,6 +4515,7 @@
         "name": "طرح  کریسمس | کد 7052",
         "type": "variable",
         "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/5084-scaled-2-1024x861.jpg",
+        "status": "publish",
         "variations": [
             {
                 "id": 83310,
@@ -2327,6 +4570,7 @@
         "name": "طرح روزنامه ای یلدا  | کد 7051",
         "type": "variable",
         "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/5081-scaled-1-1024x861.jpg",
+        "status": "publish",
         "variations": [
             {
                 "id": 83329,
@@ -2381,6 +4625,7 @@
         "name": "طرح صلح| کد 6000",
         "type": "variable",
         "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/88-1024x1024.jpg",
+        "status": "publish",
         "variations": [
             {
                 "id": 83347,
@@ -2430,65 +4675,12 @@
         ]
     },
     {
-        "id": 10100,
-        "sku": "4066",
-        "name": "طرح دختر توت فرنگی | کد 4066",
-        "type": "variable",
-        "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/4066-1024x1024.jpg",
-        "variations": [
-            {
-                "id": 83375,
-                "price": 609000,
-                "attributes": {
-                    "cloth": "jacquard"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/4066-1024x1024.jpg"
-            },
-            {
-                "id": 83383,
-                "price": 427000,
-                "attributes": {
-                    "cloth": "crepe-bugatti"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/4066-1024x1024.jpg"
-            },
-            {
-                "id": 83388,
-                "price": 0,
-                "attributes": {
-                    "cloth": "lin-yesna"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/4066-1024x1024.jpg"
-            },
-            {
-                "id": 83391,
-                "price": 585000,
-                "attributes": {
-                    "cloth": "velvet-overcoat"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/4066-1024x1024.jpg"
-            },
-            {
-                "id": 83396,
-                "price": 809000,
-                "attributes": {
-                    "cloth": "match-velvet"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/4066-1024x1024.jpg"
-            }
-        ]
-    },
-    {
         "id": 10105,
         "sku": "4080",
         "name": "طرح هالویین | کد 4080",
         "type": "variable",
         "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/4080-1024x1024.jpg",
+        "status": "publish",
         "variations": [
             {
                 "id": 83359,
@@ -2538,11 +4730,67 @@
         ]
     },
     {
+        "id": 10100,
+        "sku": "4066",
+        "name": "طرح دختر توت فرنگی | کد 4066",
+        "type": "variable",
+        "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/4066-1024x1024.jpg",
+        "status": "publish",
+        "variations": [
+            {
+                "id": 83375,
+                "price": 609000,
+                "attributes": {
+                    "cloth": "jacquard"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/4066-1024x1024.jpg"
+            },
+            {
+                "id": 83383,
+                "price": 427000,
+                "attributes": {
+                    "cloth": "crepe-bugatti"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/4066-1024x1024.jpg"
+            },
+            {
+                "id": 83388,
+                "price": 0,
+                "attributes": {
+                    "cloth": "lin-yesna"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/4066-1024x1024.jpg"
+            },
+            {
+                "id": 83391,
+                "price": 585000,
+                "attributes": {
+                    "cloth": "velvet-overcoat"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/4066-1024x1024.jpg"
+            },
+            {
+                "id": 83396,
+                "price": 809000,
+                "attributes": {
+                    "cloth": "match-velvet"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/4066-1024x1024.jpg"
+            }
+        ]
+    },
+    {
         "id": 10085,
         "sku": "4060",
         "name": "طرح دختر  توت فرنگی | کد 4060",
         "type": "variable",
         "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/4060-1024x1024.jpg",
+        "status": "publish",
         "variations": [
             {
                 "id": 83382,
@@ -2597,6 +4845,7 @@
         "name": "طرح ال و ال | کد 4059",
         "type": "variable",
         "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/4059-1024x1024.jpg",
+        "status": "publish",
         "variations": [
             {
                 "id": 83398,
@@ -2651,6 +4900,7 @@
         "name": "طرح  ال و ال | کد 4051",
         "type": "variable",
         "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/4051-1-1024x1024.jpg",
+        "status": "publish",
         "variations": [
             {
                 "id": 83409,
@@ -2705,6 +4955,7 @@
         "name": "طرح هندوانه  | کد  6669",
         "type": "variable",
         "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/40687-1024x1024.jpg",
+        "status": "publish",
         "variations": [
             {
                 "id": 83419,
@@ -2759,6 +5010,7 @@
         "name": "طرح  زبرا | کد 5047",
         "type": "variable",
         "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/5047-1024x1024.jpg",
+        "status": "publish",
         "variations": [
             {
                 "id": 83432,
@@ -2813,6 +5065,7 @@
         "name": "طرح  زبرا| کد 5046",
         "type": "variable",
         "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/5046-1024x1024.jpg",
+        "status": "publish",
         "variations": [
             {
                 "id": 83487,
@@ -2867,6 +5120,7 @@
         "name": "طرح زبرا| کد 5045",
         "type": "variable",
         "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/5045-1024x1024.jpg",
+        "status": "publish",
         "variations": [
             {
                 "id": 83498,
@@ -2921,6 +5175,7 @@
         "name": "طرح  زبرا | کد 5044",
         "type": "variable",
         "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/5044-1024x1024.jpg",
+        "status": "publish",
         "variations": [
             {
                 "id": 83505,
@@ -2975,6 +5230,7 @@
         "name": "طرح زبرا | کد 5043",
         "type": "variable",
         "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/5043-1024x1024.jpg",
+        "status": "publish",
         "variations": [
             {
                 "id": 83521,
@@ -3029,6 +5285,7 @@
         "name": "طرح زبرا | کد 5042",
         "type": "variable",
         "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/5042-1024x1024.jpg",
+        "status": "publish",
         "variations": [
             {
                 "id": 83527,
@@ -3078,11 +5335,122 @@
         ]
     },
     {
+        "id": 9990,
+        "sku": "5041",
+        "name": "طرح  گل | کد 5041",
+        "type": "variable",
+        "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/5041-1024x1024.jpg",
+        "status": "draft",
+        "variations": [
+            {
+                "id": 83534,
+                "price": 609000,
+                "attributes": {
+                    "cloth": "jacquard"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/5041-1024x1024.jpg"
+            },
+            {
+                "id": 83546,
+                "price": 427000,
+                "attributes": {
+                    "cloth": "crepe-bugatti"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/5041-1024x1024.jpg"
+            },
+            {
+                "id": 83551,
+                "price": 0,
+                "attributes": {
+                    "cloth": "lin-yesna"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/5041-1024x1024.jpg"
+            },
+            {
+                "id": 83559,
+                "price": 585000,
+                "attributes": {
+                    "cloth": "velvet-overcoat"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/5041-1024x1024.jpg"
+            },
+            {
+                "id": 83565,
+                "price": 809000,
+                "attributes": {
+                    "cloth": "match-velvet"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/5041-1024x1024.jpg"
+            }
+        ]
+    },
+    {
+        "id": 9976,
+        "sku": "5040",
+        "name": "طرح گل  | کد 5040",
+        "type": "variable",
+        "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/5040-1-1024x1024.jpg",
+        "status": "draft",
+        "variations": [
+            {
+                "id": 83549,
+                "price": 609000,
+                "attributes": {
+                    "cloth": "jacquard"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/5040-1-1024x1024.jpg"
+            },
+            {
+                "id": 83558,
+                "price": 427000,
+                "attributes": {
+                    "cloth": "crepe-bugatti"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/5040-1-1024x1024.jpg"
+            },
+            {
+                "id": 83566,
+                "price": 0,
+                "attributes": {
+                    "cloth": "lin-yesna"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/5040-1-1024x1024.jpg"
+            },
+            {
+                "id": 83570,
+                "price": 585000,
+                "attributes": {
+                    "cloth": "velvet-overcoat"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/5040-1-1024x1024.jpg"
+            },
+            {
+                "id": 83574,
+                "price": 809000,
+                "attributes": {
+                    "cloth": "match-velvet"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/5040-1-1024x1024.jpg"
+            }
+        ]
+    },
+    {
         "id": 9965,
         "sku": "5039",
         "name": "طرح گل | کد 5039",
         "type": "variable",
         "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/5039-1-1024x1024.jpg",
+        "status": "publish",
         "variations": [
             {
                 "id": 83557,
@@ -3128,2274 +5496,6 @@
                 },
                 "stock": null,
                 "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/5039-1-1024x1024.jpg"
-            }
-        ]
-    },
-    {
-        "id": 9957,
-        "sku": "5038",
-        "name": "طرح گل | کد 5038",
-        "type": "variable",
-        "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/5038-1024x1024.jpg",
-        "variations": [
-            {
-                "id": 83577,
-                "price": 609000,
-                "attributes": {
-                    "cloth": "jacquard"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/5038-1024x1024.jpg"
-            },
-            {
-                "id": 83584,
-                "price": 427000,
-                "attributes": {
-                    "cloth": "crepe-bugatti"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/5038-1024x1024.jpg"
-            },
-            {
-                "id": 83590,
-                "price": 0,
-                "attributes": {
-                    "cloth": "lin-yesna"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/5038-1024x1024.jpg"
-            },
-            {
-                "id": 83600,
-                "price": 585000,
-                "attributes": {
-                    "cloth": "velvet-overcoat"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/5038-1024x1024.jpg"
-            },
-            {
-                "id": 83611,
-                "price": 809000,
-                "attributes": {
-                    "cloth": "match-velvet"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/5038-1024x1024.jpg"
-            }
-        ]
-    },
-    {
-        "id": 9944,
-        "sku": "7050",
-        "name": "طرح گل | کد 7050",
-        "type": "variable",
-        "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/5037-1024x1024.jpg",
-        "variations": [
-            {
-                "id": 83581,
-                "price": 609000,
-                "attributes": {
-                    "cloth": "jacquard"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/5037-1024x1024.jpg"
-            },
-            {
-                "id": 83587,
-                "price": 427000,
-                "attributes": {
-                    "cloth": "crepe-bugatti"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/5037-1024x1024.jpg"
-            },
-            {
-                "id": 83595,
-                "price": 0,
-                "attributes": {
-                    "cloth": "lin-yesna"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/5037-1024x1024.jpg"
-            },
-            {
-                "id": 83604,
-                "price": 585000,
-                "attributes": {
-                    "cloth": "velvet-overcoat"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/5037-1024x1024.jpg"
-            },
-            {
-                "id": 83616,
-                "price": 809000,
-                "attributes": {
-                    "cloth": "match-velvet"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/5037-1024x1024.jpg"
-            }
-        ]
-    },
-    {
-        "id": 9899,
-        "sku": "7045",
-        "name": "طرح گل و پرنده | کد 7045",
-        "type": "variable",
-        "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/5032-1024x1024.jpg",
-        "variations": [
-            {
-                "id": 83638,
-                "price": 609000,
-                "attributes": {
-                    "cloth": "jacquard"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/5032-1024x1024.jpg"
-            },
-            {
-                "id": 83662,
-                "price": 427000,
-                "attributes": {
-                    "cloth": "crepe-bugatti"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/5032-1024x1024.jpg"
-            },
-            {
-                "id": 83675,
-                "price": 0,
-                "attributes": {
-                    "cloth": "lin-yesna"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/5032-1024x1024.jpg"
-            },
-            {
-                "id": 83698,
-                "price": 585000,
-                "attributes": {
-                    "cloth": "velvet-overcoat"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/5032-1024x1024.jpg"
-            },
-            {
-                "id": 83722,
-                "price": 809000,
-                "attributes": {
-                    "cloth": "match-velvet"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/5032-1024x1024.jpg"
-            }
-        ]
-    },
-    {
-        "id": 9735,
-        "sku": "6050",
-        "name": "طرح کهکشان (گلگسی) | کد 6050",
-        "type": "variable",
-        "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6050-scaled-1-1024x861.jpg",
-        "variations": [
-            {
-                "id": 83704,
-                "price": 609000,
-                "attributes": {
-                    "cloth": "jacquard"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6050-scaled-1-1024x861.jpg"
-            },
-            {
-                "id": 83738,
-                "price": 427000,
-                "attributes": {
-                    "cloth": "crepe-bugatti"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6050-scaled-1-1024x861.jpg"
-            },
-            {
-                "id": 83761,
-                "price": 0,
-                "attributes": {
-                    "cloth": "lin-yesna"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6050-scaled-1-1024x861.jpg"
-            },
-            {
-                "id": 83779,
-                "price": 585000,
-                "attributes": {
-                    "cloth": "velvet-overcoat"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6050-scaled-1-1024x861.jpg"
-            },
-            {
-                "id": 83795,
-                "price": 809000,
-                "attributes": {
-                    "cloth": "match-velvet"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6050-scaled-1-1024x861.jpg"
-            }
-        ]
-    },
-    {
-        "id": 9727,
-        "sku": "6046",
-        "name": "طرح کت گربه weow| کد 6046",
-        "type": "variable",
-        "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6046-scaled-1-1024x861.jpg",
-        "variations": [
-            {
-                "id": 83726,
-                "price": 609000,
-                "attributes": {
-                    "cloth": "jacquard"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6046-scaled-1-1024x861.jpg"
-            },
-            {
-                "id": 83753,
-                "price": 427000,
-                "attributes": {
-                    "cloth": "crepe-bugatti"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6046-scaled-1-1024x861.jpg"
-            },
-            {
-                "id": 83773,
-                "price": 0,
-                "attributes": {
-                    "cloth": "lin-yesna"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6046-scaled-1-1024x861.jpg"
-            },
-            {
-                "id": 83791,
-                "price": 585000,
-                "attributes": {
-                    "cloth": "velvet-overcoat"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6046-scaled-1-1024x861.jpg"
-            },
-            {
-                "id": 83793,
-                "price": 809000,
-                "attributes": {
-                    "cloth": "match-velvet"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6046-scaled-1-1024x861.jpg"
-            }
-        ]
-    },
-    {
-        "id": 9719,
-        "sku": "6051",
-        "name": "طرح کاشی بلبل رنگی | کد 6051",
-        "type": "variable",
-        "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6051-scaled-1-1024x861.jpg",
-        "variations": [
-            {
-                "id": 83759,
-                "price": 609000,
-                "attributes": {
-                    "cloth": "jacquard"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6051-scaled-1-1024x861.jpg"
-            },
-            {
-                "id": 83789,
-                "price": 427000,
-                "attributes": {
-                    "cloth": "crepe-bugatti"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6051-scaled-1-1024x861.jpg"
-            },
-            {
-                "id": 83802,
-                "price": 0,
-                "attributes": {
-                    "cloth": "lin-yesna"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6051-scaled-1-1024x861.jpg"
-            },
-            {
-                "id": 83809,
-                "price": 585000,
-                "attributes": {
-                    "cloth": "velvet-overcoat"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6051-scaled-1-1024x861.jpg"
-            },
-            {
-                "id": 83817,
-                "price": 809000,
-                "attributes": {
-                    "cloth": "match-velvet"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6051-scaled-1-1024x861.jpg"
-            }
-        ]
-    },
-    {
-        "id": 9711,
-        "sku": "6041",
-        "name": "طرحقلب سفید زمینه مشکی |کد 6041",
-        "type": "variable",
-        "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6041-scaled-1-1024x861.jpg",
-        "variations": [
-            {
-                "id": 83969,
-                "price": 609000,
-                "attributes": {
-                    "cloth": "jacquard"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6041-scaled-1-1024x861.jpg"
-            },
-            {
-                "id": 83972,
-                "price": 427000,
-                "attributes": {
-                    "cloth": "crepe-bugatti"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6041-scaled-1-1024x861.jpg"
-            },
-            {
-                "id": 83976,
-                "price": 0,
-                "attributes": {
-                    "cloth": "lin-yesna"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6041-scaled-1-1024x861.jpg"
-            },
-            {
-                "id": 83980,
-                "price": 585000,
-                "attributes": {
-                    "cloth": "velvet-overcoat"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6041-scaled-1-1024x861.jpg"
-            },
-            {
-                "id": 83984,
-                "price": 809000,
-                "attributes": {
-                    "cloth": "match-velvet"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6041-scaled-1-1024x861.jpg"
-            }
-        ]
-    },
-    {
-        "id": 9694,
-        "sku": "6040",
-        "name": "طرح سگ نگهبان|کد 6040",
-        "type": "variable",
-        "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6040-1024x1024.jpg",
-        "variations": [
-            {
-                "id": 83975,
-                "price": 609000,
-                "attributes": {
-                    "cloth": "jacquard"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6040-1024x1024.jpg"
-            },
-            {
-                "id": 83981,
-                "price": 427000,
-                "attributes": {
-                    "cloth": "crepe-bugatti"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6040-1024x1024.jpg"
-            },
-            {
-                "id": 83985,
-                "price": 0,
-                "attributes": {
-                    "cloth": "lin-yesna"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6040-1024x1024.jpg"
-            },
-            {
-                "id": 83989,
-                "price": 585000,
-                "attributes": {
-                    "cloth": "velvet-overcoat"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6040-1024x1024.jpg"
-            },
-            {
-                "id": 83993,
-                "price": 809000,
-                "attributes": {
-                    "cloth": "match-velvet"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6040-1024x1024.jpg"
-            }
-        ]
-    },
-    {
-        "id": 9686,
-        "sku": "6036",
-        "name": "طرح چهارخونه خط سرخ ابی |کد 6036",
-        "type": "variable",
-        "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6036-scaled-1-1024x861.jpg",
-        "variations": [
-            {
-                "id": 83988,
-                "price": 609000,
-                "attributes": {
-                    "cloth": "jacquard"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6036-scaled-1-1024x861.jpg"
-            },
-            {
-                "id": 83994,
-                "price": 427000,
-                "attributes": {
-                    "cloth": "crepe-bugatti"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6036-scaled-1-1024x861.jpg"
-            },
-            {
-                "id": 83996,
-                "price": 0,
-                "attributes": {
-                    "cloth": "lin-yesna"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6036-scaled-1-1024x861.jpg"
-            },
-            {
-                "id": 83998,
-                "price": 585000,
-                "attributes": {
-                    "cloth": "velvet-overcoat"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6036-scaled-1-1024x861.jpg"
-            },
-            {
-                "id": 84000,
-                "price": 809000,
-                "attributes": {
-                    "cloth": "match-velvet"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6036-scaled-1-1024x861.jpg"
-            }
-        ]
-    },
-    {
-        "id": 9681,
-        "sku": "6043",
-        "name": "طرح زبرا| کد 6043",
-        "type": "variable",
-        "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6043-scaled-1-1024x861.jpg",
-        "variations": [
-            {
-                "id": 84180,
-                "price": 609000,
-                "attributes": {
-                    "cloth": "jacquard"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6043-scaled-1-1024x861.jpg"
-            },
-            {
-                "id": 84183,
-                "price": 427000,
-                "attributes": {
-                    "cloth": "crepe-bugatti"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6043-scaled-1-1024x861.jpg"
-            },
-            {
-                "id": 84185,
-                "price": 0,
-                "attributes": {
-                    "cloth": "lin-yesna"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6043-scaled-1-1024x861.jpg"
-            },
-            {
-                "id": 84187,
-                "price": 585000,
-                "attributes": {
-                    "cloth": "velvet-overcoat"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6043-scaled-1-1024x861.jpg"
-            },
-            {
-                "id": 84189,
-                "price": 809000,
-                "attributes": {
-                    "cloth": "match-velvet"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6043-scaled-1-1024x861.jpg"
-            }
-        ]
-    },
-    {
-        "id": 9673,
-        "sku": "6038",
-        "name": "طرح دونه های برفی |کد 6038",
-        "type": "variable",
-        "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6038-scaled-1-1024x861.jpg",
-        "variations": [
-            {
-                "id": 84002,
-                "price": 609000,
-                "attributes": {
-                    "cloth": "jacquard"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6038-scaled-1-1024x861.jpg"
-            },
-            {
-                "id": 84011,
-                "price": 427000,
-                "attributes": {
-                    "cloth": "crepe-bugatti"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6038-scaled-1-1024x861.jpg"
-            },
-            {
-                "id": 84018,
-                "price": 0,
-                "attributes": {
-                    "cloth": "lin-yesna"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6038-scaled-1-1024x861.jpg"
-            },
-            {
-                "id": 84028,
-                "price": 585000,
-                "attributes": {
-                    "cloth": "velvet-overcoat"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6038-scaled-1-1024x861.jpg"
-            },
-            {
-                "id": 84035,
-                "price": 809000,
-                "attributes": {
-                    "cloth": "match-velvet"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6038-scaled-1-1024x861.jpg"
-            }
-        ]
-    },
-    {
-        "id": 9657,
-        "sku": "6037",
-        "name": "طرح فیس باربی زمینه سفید | کد 6037",
-        "type": "variable",
-        "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6037-scaled-1-1024x861.jpg",
-        "variations": [
-            {
-                "id": 84005,
-                "price": 609000,
-                "attributes": {
-                    "cloth": "jacquard"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6037-scaled-1-1024x861.jpg"
-            },
-            {
-                "id": 84012,
-                "price": 427000,
-                "attributes": {
-                    "cloth": "crepe-bugatti"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6037-scaled-1-1024x861.jpg"
-            },
-            {
-                "id": 84020,
-                "price": 0,
-                "attributes": {
-                    "cloth": "lin-yesna"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6037-scaled-1-1024x861.jpg"
-            },
-            {
-                "id": 84026,
-                "price": 585000,
-                "attributes": {
-                    "cloth": "velvet-overcoat"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6037-scaled-1-1024x861.jpg"
-            },
-            {
-                "id": 84034,
-                "price": 809000,
-                "attributes": {
-                    "cloth": "match-velvet"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6037-scaled-1-1024x861.jpg"
-            }
-        ]
-    },
-    {
-        "id": 9649,
-        "sku": "6034",
-        "name": "طرح زبرا سبز |کد 6034",
-        "type": "variable",
-        "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6034-scaled-1-1024x861.jpg",
-        "variations": [
-            {
-                "id": 84010,
-                "price": 609000,
-                "attributes": {
-                    "cloth": "jacquard"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6034-scaled-1-1024x861.jpg"
-            },
-            {
-                "id": 84019,
-                "price": 427000,
-                "attributes": {
-                    "cloth": "crepe-bugatti"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6034-scaled-1-1024x861.jpg"
-            },
-            {
-                "id": 84027,
-                "price": 0,
-                "attributes": {
-                    "cloth": "lin-yesna"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6034-scaled-1-1024x861.jpg"
-            },
-            {
-                "id": 84036,
-                "price": 585000,
-                "attributes": {
-                    "cloth": "velvet-overcoat"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6034-scaled-1-1024x861.jpg"
-            },
-            {
-                "id": 84040,
-                "price": 809000,
-                "attributes": {
-                    "cloth": "match-velvet"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6034-scaled-1-1024x861.jpg"
-            }
-        ]
-    },
-    {
-        "id": 9641,
-        "sku": "111112",
-        "name": "طرح استیکر گربه اشرافی  |کد 10 سانتی 111112",
-        "type": "variable",
-        "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6035-scaled-1-1024x861.jpg",
-        "variations": [
-            {
-                "id": 84021,
-                "price": 609000,
-                "attributes": {
-                    "cloth": "jacquard"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6035-scaled-1-1024x861.jpg"
-            },
-            {
-                "id": 84033,
-                "price": 427000,
-                "attributes": {
-                    "cloth": "crepe-bugatti"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6035-scaled-1-1024x861.jpg"
-            },
-            {
-                "id": 84039,
-                "price": 0,
-                "attributes": {
-                    "cloth": "lin-yesna"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6035-scaled-1-1024x861.jpg"
-            },
-            {
-                "id": 84043,
-                "price": 585000,
-                "attributes": {
-                    "cloth": "velvet-overcoat"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6035-scaled-1-1024x861.jpg"
-            },
-            {
-                "id": 84049,
-                "price": 809000,
-                "attributes": {
-                    "cloth": "match-velvet"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6035-scaled-1-1024x861.jpg"
-            }
-        ]
-    },
-    {
-        "id": 9633,
-        "sku": "6033",
-        "name": "طرح مینی خالدار قرمز ریز (5 سانتی ) |کد 6033",
-        "type": "variable",
-        "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6033-tarh6cm-scaled-1-1024x861.jpg",
-        "variations": [
-            {
-                "id": 84044,
-                "price": 609000,
-                "attributes": {
-                    "cloth": "jacquard"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6033-tarh6cm-scaled-1-1024x861.jpg"
-            },
-            {
-                "id": 84053,
-                "price": 427000,
-                "attributes": {
-                    "cloth": "crepe-bugatti"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6033-tarh6cm-scaled-1-1024x861.jpg"
-            },
-            {
-                "id": 84057,
-                "price": 0,
-                "attributes": {
-                    "cloth": "lin-yesna"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6033-tarh6cm-scaled-1-1024x861.jpg"
-            },
-            {
-                "id": 84063,
-                "price": 585000,
-                "attributes": {
-                    "cloth": "velvet-overcoat"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6033-tarh6cm-scaled-1-1024x861.jpg"
-            },
-            {
-                "id": 84069,
-                "price": 809000,
-                "attributes": {
-                    "cloth": "match-velvet"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6033-tarh6cm-scaled-1-1024x861.jpg"
-            }
-        ]
-    },
-    {
-        "id": 9619,
-        "sku": "6031",
-        "name": "طرح بابا نوئل سبز |کد 6031 (ارتفاع حاشیه کل 40 سانتی متر حاشیه روی عرض)",
-        "type": "variable",
-        "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6031-1024x1024.jpg",
-        "variations": [
-            {
-                "id": 84048,
-                "price": 609000,
-                "attributes": {
-                    "cloth": "jacquard"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6031-1024x1024.jpg"
-            },
-            {
-                "id": 84054,
-                "price": 427000,
-                "attributes": {
-                    "cloth": "crepe-bugatti"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6031-1024x1024.jpg"
-            },
-            {
-                "id": 84062,
-                "price": 0,
-                "attributes": {
-                    "cloth": "lin-yesna"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6031-1024x1024.jpg"
-            },
-            {
-                "id": 84068,
-                "price": 585000,
-                "attributes": {
-                    "cloth": "velvet-overcoat"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6031-1024x1024.jpg"
-            },
-            {
-                "id": 84074,
-                "price": 809000,
-                "attributes": {
-                    "cloth": "match-velvet"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6031-1024x1024.jpg"
-            }
-        ]
-    },
-    {
-        "id": 9611,
-        "sku": "6030",
-        "name": "طرح کت صورتی|کد 6030",
-        "type": "variable",
-        "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6030-scaled-1-1024x861.jpg",
-        "variations": [
-            {
-                "id": 84059,
-                "price": 609000,
-                "attributes": {
-                    "cloth": "jacquard"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6030-scaled-1-1024x861.jpg"
-            },
-            {
-                "id": 84067,
-                "price": 427000,
-                "attributes": {
-                    "cloth": "crepe-bugatti"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6030-scaled-1-1024x861.jpg"
-            },
-            {
-                "id": 84072,
-                "price": 0,
-                "attributes": {
-                    "cloth": "lin-yesna"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6030-scaled-1-1024x861.jpg"
-            },
-            {
-                "id": 84077,
-                "price": 585000,
-                "attributes": {
-                    "cloth": "velvet-overcoat"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6030-scaled-1-1024x861.jpg"
-            },
-            {
-                "id": 84081,
-                "price": 809000,
-                "attributes": {
-                    "cloth": "match-velvet"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6030-scaled-1-1024x861.jpg"
-            }
-        ]
-    },
-    {
-        "id": 9603,
-        "sku": "6032",
-        "name": "طرح بابا نوئل قرمز | کد 6032| (ارتفاع حاشیه کل 40 سانتی متر حاشیه روی عرض)",
-        "type": "variable",
-        "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6032-1024x1024.jpg",
-        "variations": [
-            {
-                "id": 84076,
-                "price": 609000,
-                "attributes": {
-                    "cloth": "jacquard"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6032-1024x1024.jpg"
-            },
-            {
-                "id": 84084,
-                "price": 427000,
-                "attributes": {
-                    "cloth": "crepe-bugatti"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6032-1024x1024.jpg"
-            },
-            {
-                "id": 84088,
-                "price": 0,
-                "attributes": {
-                    "cloth": "lin-yesna"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6032-1024x1024.jpg"
-            },
-            {
-                "id": 84093,
-                "price": 585000,
-                "attributes": {
-                    "cloth": "velvet-overcoat"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6032-1024x1024.jpg"
-            },
-            {
-                "id": 84099,
-                "price": 809000,
-                "attributes": {
-                    "cloth": "match-velvet"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6032-1024x1024.jpg"
-            }
-        ]
-    },
-    {
-        "id": 9586,
-        "sku": "6028",
-        "name": "طرح فیس باربی. پایین لوگو صورتی  |کد 6028",
-        "type": "variable",
-        "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6028-scaled-1-1024x861.jpg",
-        "variations": [
-            {
-                "id": 84083,
-                "price": 609000,
-                "attributes": {
-                    "cloth": "jacquard"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6028-scaled-1-1024x861.jpg"
-            },
-            {
-                "id": 84089,
-                "price": 427000,
-                "attributes": {
-                    "cloth": "crepe-bugatti"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6028-scaled-1-1024x861.jpg"
-            },
-            {
-                "id": 84094,
-                "price": 0,
-                "attributes": {
-                    "cloth": "lin-yesna"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6028-scaled-1-1024x861.jpg"
-            },
-            {
-                "id": 84100,
-                "price": 585000,
-                "attributes": {
-                    "cloth": "velvet-overcoat"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6028-scaled-1-1024x861.jpg"
-            },
-            {
-                "id": 84104,
-                "price": 809000,
-                "attributes": {
-                    "cloth": "match-velvet"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6028-scaled-1-1024x861.jpg"
-            }
-        ]
-    },
-    {
-        "id": 9578,
-        "sku": "6029",
-        "name": "طرح گل ترنم | کد 6029",
-        "type": "variable",
-        "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6029-scaled-1-1024x861.jpg",
-        "variations": [
-            {
-                "id": 84095,
-                "price": 609000,
-                "attributes": {
-                    "cloth": "jacquard"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6029-scaled-1-1024x861.jpg"
-            },
-            {
-                "id": 84103,
-                "price": 427000,
-                "attributes": {
-                    "cloth": "crepe-bugatti"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6029-scaled-1-1024x861.jpg"
-            },
-            {
-                "id": 84106,
-                "price": 0,
-                "attributes": {
-                    "cloth": "lin-yesna"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6029-scaled-1-1024x861.jpg"
-            },
-            {
-                "id": 84109,
-                "price": 585000,
-                "attributes": {
-                    "cloth": "velvet-overcoat"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6029-scaled-1-1024x861.jpg"
-            },
-            {
-                "id": 84111,
-                "price": 809000,
-                "attributes": {
-                    "cloth": "match-velvet"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6029-scaled-1-1024x861.jpg"
-            }
-        ]
-    },
-    {
-        "id": 9570,
-        "sku": "6027",
-        "name": "طرح باربی لوگو سرخابی |کد 6027",
-        "type": "variable",
-        "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6027-scaled-1-1024x861.jpg",
-        "variations": [
-            {
-                "id": 84112,
-                "price": 609000,
-                "attributes": {
-                    "cloth": "jacquard"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6027-scaled-1-1024x861.jpg"
-            },
-            {
-                "id": 84116,
-                "price": 427000,
-                "attributes": {
-                    "cloth": "crepe-bugatti"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6027-scaled-1-1024x861.jpg"
-            },
-            {
-                "id": 84119,
-                "price": 0,
-                "attributes": {
-                    "cloth": "lin-yesna"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6027-scaled-1-1024x861.jpg"
-            },
-            {
-                "id": 84123,
-                "price": 585000,
-                "attributes": {
-                    "cloth": "velvet-overcoat"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6027-scaled-1-1024x861.jpg"
-            },
-            {
-                "id": 84128,
-                "price": 809000,
-                "attributes": {
-                    "cloth": "match-velvet"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6027-scaled-1-1024x861.jpg"
-            }
-        ]
-    },
-    {
-        "id": 9562,
-        "sku": "6026",
-        "name": "طرح ال و ال LOL| کد 6026",
-        "type": "variable",
-        "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6026-1024x1024.jpg",
-        "variations": [
-            {
-                "id": 84118,
-                "price": 609000,
-                "attributes": {
-                    "cloth": "jacquard"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6026-1024x1024.jpg"
-            },
-            {
-                "id": 84124,
-                "price": 427000,
-                "attributes": {
-                    "cloth": "crepe-bugatti"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6026-1024x1024.jpg"
-            },
-            {
-                "id": 84130,
-                "price": 0,
-                "attributes": {
-                    "cloth": "lin-yesna"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6026-1024x1024.jpg"
-            },
-            {
-                "id": 84138,
-                "price": 585000,
-                "attributes": {
-                    "cloth": "velvet-overcoat"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6026-1024x1024.jpg"
-            },
-            {
-                "id": 84146,
-                "price": 809000,
-                "attributes": {
-                    "cloth": "match-velvet"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6026-1024x1024.jpg"
-            }
-        ]
-    },
-    {
-        "id": 9546,
-        "sku": "6024",
-        "name": "طرح چهار خونه سورمه ای | کد 6024",
-        "type": "variable",
-        "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6024-scaled-1-1024x861.jpg",
-        "variations": [
-            {
-                "id": 84129,
-                "price": 609000,
-                "attributes": {
-                    "cloth": "jacquard"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6024-scaled-1-1024x861.jpg"
-            },
-            {
-                "id": 84140,
-                "price": 427000,
-                "attributes": {
-                    "cloth": "crepe-bugatti"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6024-scaled-1-1024x861.jpg"
-            },
-            {
-                "id": 84150,
-                "price": 0,
-                "attributes": {
-                    "cloth": "lin-yesna"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6024-scaled-1-1024x861.jpg"
-            },
-            {
-                "id": 84156,
-                "price": 585000,
-                "attributes": {
-                    "cloth": "velvet-overcoat"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6024-scaled-1-1024x861.jpg"
-            },
-            {
-                "id": 84161,
-                "price": 809000,
-                "attributes": {
-                    "cloth": "match-velvet"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6024-scaled-1-1024x861.jpg"
-            }
-        ]
-    },
-    {
-        "id": 9538,
-        "sku": "6025",
-        "name": "طرح زبرا |کد 6025",
-        "type": "variable",
-        "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6025-scaled-1-1024x861.jpg",
-        "variations": [
-            {
-                "id": 84134,
-                "price": 609000,
-                "attributes": {
-                    "cloth": "jacquard"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6025-scaled-1-1024x861.jpg"
-            },
-            {
-                "id": 84147,
-                "price": 427000,
-                "attributes": {
-                    "cloth": "crepe-bugatti"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6025-scaled-1-1024x861.jpg"
-            },
-            {
-                "id": 84155,
-                "price": 0,
-                "attributes": {
-                    "cloth": "lin-yesna"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6025-scaled-1-1024x861.jpg"
-            },
-            {
-                "id": 84164,
-                "price": 585000,
-                "attributes": {
-                    "cloth": "velvet-overcoat"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6025-scaled-1-1024x861.jpg"
-            },
-            {
-                "id": 84170,
-                "price": 809000,
-                "attributes": {
-                    "cloth": "match-velvet"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6025-scaled-1-1024x861.jpg"
-            }
-        ]
-    },
-    {
-        "id": 9530,
-        "sku": "6023",
-        "name": "طرح پیه دوپل کرم روشن|کد 6023",
-        "type": "variable",
-        "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6023-scaled-1-1024x861.jpg",
-        "variations": [
-            {
-                "id": 84139,
-                "price": 609000,
-                "attributes": {
-                    "cloth": "jacquard"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6023-scaled-1-1024x861.jpg"
-            },
-            {
-                "id": 84152,
-                "price": 427000,
-                "attributes": {
-                    "cloth": "crepe-bugatti"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6023-scaled-1-1024x861.jpg"
-            },
-            {
-                "id": 84162,
-                "price": 0,
-                "attributes": {
-                    "cloth": "lin-yesna"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6023-scaled-1-1024x861.jpg"
-            },
-            {
-                "id": 84169,
-                "price": 585000,
-                "attributes": {
-                    "cloth": "velvet-overcoat"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6023-scaled-1-1024x861.jpg"
-            },
-            {
-                "id": 84174,
-                "price": 809000,
-                "attributes": {
-                    "cloth": "match-velvet"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6023-scaled-1-1024x861.jpg"
-            }
-        ]
-    },
-    {
-        "id": 9522,
-        "sku": "6020",
-        "name": "طرح رویاه و قارچ| کد 6020",
-        "type": "variable",
-        "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6020-scaled-1-1024x861.jpg",
-        "variations": [
-            {
-                "id": 84148,
-                "price": 609000,
-                "attributes": {
-                    "cloth": "jacquard"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6020-scaled-1-1024x861.jpg"
-            },
-            {
-                "id": 84163,
-                "price": 427000,
-                "attributes": {
-                    "cloth": "crepe-bugatti"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6020-scaled-1-1024x861.jpg"
-            },
-            {
-                "id": 84168,
-                "price": 0,
-                "attributes": {
-                    "cloth": "lin-yesna"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6020-scaled-1-1024x861.jpg"
-            },
-            {
-                "id": 84173,
-                "price": 585000,
-                "attributes": {
-                    "cloth": "velvet-overcoat"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6020-scaled-1-1024x861.jpg"
-            },
-            {
-                "id": 84176,
-                "price": 809000,
-                "attributes": {
-                    "cloth": "match-velvet"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6020-scaled-1-1024x861.jpg"
-            }
-        ]
-    },
-    {
-        "id": 9506,
-        "sku": "6021",
-        "name": "طرح گوچی شکلاتی  |کد 6021",
-        "type": "variable",
-        "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6021-scaled-1-1024x861.jpg",
-        "variations": [
-            {
-                "id": 84457,
-                "price": 609000,
-                "attributes": {
-                    "cloth": "jacquard"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6021-scaled-1-1024x861.jpg"
-            },
-            {
-                "id": 84463,
-                "price": 427000,
-                "attributes": {
-                    "cloth": "crepe-bugatti"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6021-scaled-1-1024x861.jpg"
-            },
-            {
-                "id": 84481,
-                "price": 0,
-                "attributes": {
-                    "cloth": "lin-yesna"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6021-scaled-1-1024x861.jpg"
-            },
-            {
-                "id": 84497,
-                "price": 585000,
-                "attributes": {
-                    "cloth": "velvet-overcoat"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6021-scaled-1-1024x861.jpg"
-            },
-            {
-                "id": 84515,
-                "price": 809000,
-                "attributes": {
-                    "cloth": "match-velvet"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6021-scaled-1-1024x861.jpg"
-            }
-        ]
-    },
-    {
-        "id": 9498,
-        "sku": "6019",
-        "name": "طرح کت صورتی |کد 6019",
-        "type": "variable",
-        "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6019-scaled-1-1024x861.jpg",
-        "variations": [
-            {
-                "id": 84460,
-                "price": 609000,
-                "attributes": {
-                    "cloth": "jacquard"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6019-scaled-1-1024x861.jpg"
-            },
-            {
-                "id": 84476,
-                "price": 427000,
-                "attributes": {
-                    "cloth": "crepe-bugatti"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6019-scaled-1-1024x861.jpg"
-            },
-            {
-                "id": 84492,
-                "price": 0,
-                "attributes": {
-                    "cloth": "lin-yesna"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6019-scaled-1-1024x861.jpg"
-            },
-            {
-                "id": 84509,
-                "price": 585000,
-                "attributes": {
-                    "cloth": "velvet-overcoat"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6019-scaled-1-1024x861.jpg"
-            },
-            {
-                "id": 84525,
-                "price": 809000,
-                "attributes": {
-                    "cloth": "match-velvet"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6019-scaled-1-1024x861.jpg"
-            }
-        ]
-    },
-    {
-        "id": 9490,
-        "sku": "6013",
-        "name": "طرح  پوست هندوانه|کد 6013",
-        "type": "variable",
-        "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6013-scaled-1-1024x861.jpg",
-        "variations": [
-            {
-                "id": 84473,
-                "price": 609000,
-                "attributes": {
-                    "cloth": "jacquard"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6013-scaled-1-1024x861.jpg"
-            },
-            {
-                "id": 84495,
-                "price": 427000,
-                "attributes": {
-                    "cloth": "crepe-bugatti"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6013-scaled-1-1024x861.jpg"
-            },
-            {
-                "id": 84512,
-                "price": 0,
-                "attributes": {
-                    "cloth": "lin-yesna"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6013-scaled-1-1024x861.jpg"
-            },
-            {
-                "id": 84527,
-                "price": 585000,
-                "attributes": {
-                    "cloth": "velvet-overcoat"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6013-scaled-1-1024x861.jpg"
-            },
-            {
-                "id": 84544,
-                "price": 809000,
-                "attributes": {
-                    "cloth": "match-velvet"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6013-scaled-1-1024x861.jpg"
-            }
-        ]
-    },
-    {
-        "id": 9482,
-        "sku": "6018",
-        "name": "طرح برند لاین فرندز سفید | کد 6018",
-        "type": "variable",
-        "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6018-scaled-1-1024x861.jpg",
-        "variations": [
-            {
-                "id": 84472,
-                "price": 609000,
-                "attributes": {
-                    "cloth": "jacquard"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6018-scaled-1-1024x861.jpg"
-            },
-            {
-                "id": 84496,
-                "price": 427000,
-                "attributes": {
-                    "cloth": "crepe-bugatti"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6018-scaled-1-1024x861.jpg"
-            },
-            {
-                "id": 84510,
-                "price": 0,
-                "attributes": {
-                    "cloth": "lin-yesna"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6018-scaled-1-1024x861.jpg"
-            },
-            {
-                "id": 84528,
-                "price": 585000,
-                "attributes": {
-                    "cloth": "velvet-overcoat"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6018-scaled-1-1024x861.jpg"
-            },
-            {
-                "id": 84542,
-                "price": 809000,
-                "attributes": {
-                    "cloth": "match-velvet"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6018-scaled-1-1024x861.jpg"
-            }
-        ]
-    },
-    {
-        "id": 9468,
-        "sku": "6016",
-        "name": "طرح میکی و موس طوسی |کد 6016",
-        "type": "variable",
-        "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6016-scaled-1-1024x861.jpg",
-        "variations": [
-            {
-                "id": 84475,
-                "price": 609000,
-                "attributes": {
-                    "cloth": "jacquard"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6016-scaled-1-1024x861.jpg"
-            },
-            {
-                "id": 84499,
-                "price": 427000,
-                "attributes": {
-                    "cloth": "crepe-bugatti"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6016-scaled-1-1024x861.jpg"
-            },
-            {
-                "id": 84514,
-                "price": 0,
-                "attributes": {
-                    "cloth": "lin-yesna"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6016-scaled-1-1024x861.jpg"
-            },
-            {
-                "id": 84529,
-                "price": 585000,
-                "attributes": {
-                    "cloth": "velvet-overcoat"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6016-scaled-1-1024x861.jpg"
-            },
-            {
-                "id": 84541,
-                "price": 809000,
-                "attributes": {
-                    "cloth": "match-velvet"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6016-scaled-1-1024x861.jpg"
-            }
-        ]
-    },
-    {
-        "id": 9460,
-        "sku": "6015",
-        "name": "طرح مینی و موس |کد 6015",
-        "type": "variable",
-        "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6015-scaled-1-1024x861.jpg",
-        "variations": [
-            {
-                "id": 84471,
-                "price": 609000,
-                "attributes": {
-                    "cloth": "jacquard"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6015-scaled-1-1024x861.jpg"
-            },
-            {
-                "id": 84493,
-                "price": 427000,
-                "attributes": {
-                    "cloth": "crepe-bugatti"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6015-scaled-1-1024x861.jpg"
-            },
-            {
-                "id": 84508,
-                "price": 0,
-                "attributes": {
-                    "cloth": "lin-yesna"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6015-scaled-1-1024x861.jpg"
-            },
-            {
-                "id": 84524,
-                "price": 585000,
-                "attributes": {
-                    "cloth": "velvet-overcoat"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6015-scaled-1-1024x861.jpg"
-            },
-            {
-                "id": 84539,
-                "price": 809000,
-                "attributes": {
-                    "cloth": "match-velvet"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6015-scaled-1-1024x861.jpg"
-            }
-        ]
-    },
-    {
-        "id": 9452,
-        "sku": "6017",
-        "name": "طرح شطرنجی سیاه و سفید | کد 6017",
-        "type": "variable",
-        "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6017-scaled-1-1024x861.jpg",
-        "variations": [
-            {
-                "id": 84474,
-                "price": 609000,
-                "attributes": {
-                    "cloth": "jacquard"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6017-scaled-1-1024x861.jpg"
-            },
-            {
-                "id": 84498,
-                "price": 427000,
-                "attributes": {
-                    "cloth": "crepe-bugatti"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6017-scaled-1-1024x861.jpg"
-            },
-            {
-                "id": 84513,
-                "price": 0,
-                "attributes": {
-                    "cloth": "lin-yesna"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6017-scaled-1-1024x861.jpg"
-            },
-            {
-                "id": 84531,
-                "price": 585000,
-                "attributes": {
-                    "cloth": "velvet-overcoat"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6017-scaled-1-1024x861.jpg"
-            },
-            {
-                "id": 84546,
-                "price": 809000,
-                "attributes": {
-                    "cloth": "match-velvet"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6017-scaled-1-1024x861.jpg"
-            }
-        ]
-    },
-    {
-        "id": 9436,
-        "sku": "6014",
-        "name": "طرح دونه هندوانه |کد 6014",
-        "type": "variable",
-        "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6014-scaled-1-1024x861.jpg",
-        "variations": [
-            {
-                "id": 84479,
-                "price": 609000,
-                "attributes": {
-                    "cloth": "jacquard"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6014-scaled-1-1024x861.jpg"
-            },
-            {
-                "id": 84504,
-                "price": 427000,
-                "attributes": {
-                    "cloth": "crepe-bugatti"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6014-scaled-1-1024x861.jpg"
-            },
-            {
-                "id": 84518,
-                "price": 0,
-                "attributes": {
-                    "cloth": "lin-yesna"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6014-scaled-1-1024x861.jpg"
-            },
-            {
-                "id": 84533,
-                "price": 585000,
-                "attributes": {
-                    "cloth": "velvet-overcoat"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6014-scaled-1-1024x861.jpg"
-            },
-            {
-                "id": 84543,
-                "price": 809000,
-                "attributes": {
-                    "cloth": "match-velvet"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6014-scaled-1-1024x861.jpg"
-            }
-        ]
-    },
-    {
-        "id": 9428,
-        "sku": "6011",
-        "name": "طرح پرتغال |کد 6011",
-        "type": "variable",
-        "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6011-scaled-1-1024x861.jpg",
-        "variations": [
-            {
-                "id": 84530,
-                "price": 609000,
-                "attributes": {
-                    "cloth": "jacquard"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6011-scaled-1-1024x861.jpg"
-            },
-            {
-                "id": 84547,
-                "price": 427000,
-                "attributes": {
-                    "cloth": "crepe-bugatti"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6011-scaled-1-1024x861.jpg"
-            },
-            {
-                "id": 84552,
-                "price": 0,
-                "attributes": {
-                    "cloth": "lin-yesna"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6011-scaled-1-1024x861.jpg"
-            },
-            {
-                "id": 84557,
-                "price": 585000,
-                "attributes": {
-                    "cloth": "velvet-overcoat"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6011-scaled-1-1024x861.jpg"
-            },
-            {
-                "id": 84564,
-                "price": 809000,
-                "attributes": {
-                    "cloth": "match-velvet"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6011-scaled-1-1024x861.jpg"
-            }
-        ]
-    },
-    {
-        "id": 9420,
-        "sku": "6012",
-        "name": "طرح گل و بلبل آبی | کد 6012",
-        "type": "variable",
-        "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6012-scaled-1-1024x861.jpg",
-        "variations": [
-            {
-                "id": 84550,
-                "price": 609000,
-                "attributes": {
-                    "cloth": "jacquard"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6012-scaled-1-1024x861.jpg"
-            },
-            {
-                "id": 84561,
-                "price": 427000,
-                "attributes": {
-                    "cloth": "crepe-bugatti"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6012-scaled-1-1024x861.jpg"
-            },
-            {
-                "id": 84568,
-                "price": 0,
-                "attributes": {
-                    "cloth": "lin-yesna"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6012-scaled-1-1024x861.jpg"
-            },
-            {
-                "id": 84575,
-                "price": 585000,
-                "attributes": {
-                    "cloth": "velvet-overcoat"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6012-scaled-1-1024x861.jpg"
-            },
-            {
-                "id": 84585,
-                "price": 809000,
-                "attributes": {
-                    "cloth": "match-velvet"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6012-scaled-1-1024x861.jpg"
-            }
-        ]
-    },
-    {
-        "id": 9412,
-        "sku": "6010",
-        "name": "طرح موزی  |کد 6010",
-        "type": "variable",
-        "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6010-scaled-1-1024x861.jpg",
-        "variations": [
-            {
-                "id": 84554,
-                "price": 609000,
-                "attributes": {
-                    "cloth": "jacquard"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6010-scaled-1-1024x861.jpg"
-            },
-            {
-                "id": 84563,
-                "price": 427000,
-                "attributes": {
-                    "cloth": "crepe-bugatti"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6010-scaled-1-1024x861.jpg"
-            },
-            {
-                "id": 84570,
-                "price": 0,
-                "attributes": {
-                    "cloth": "lin-yesna"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6010-scaled-1-1024x861.jpg"
-            },
-            {
-                "id": 84577,
-                "price": 585000,
-                "attributes": {
-                    "cloth": "velvet-overcoat"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6010-scaled-1-1024x861.jpg"
-            },
-            {
-                "id": 84586,
-                "price": 809000,
-                "attributes": {
-                    "cloth": "match-velvet"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6010-scaled-1-1024x861.jpg"
-            }
-        ]
-    },
-    {
-        "id": 9396,
-        "sku": "5095",
-        "name": "طرح مینی و موس خالدار | کد 5095",
-        "type": "variable",
-        "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/5095-scaled-1-1024x861.jpg",
-        "variations": [
-            {
-                "id": 84566,
-                "price": 609000,
-                "attributes": {
-                    "cloth": "jacquard"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/5095-scaled-1-1024x861.jpg"
-            },
-            {
-                "id": 84579,
-                "price": 427000,
-                "attributes": {
-                    "cloth": "crepe-bugatti"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/5095-scaled-1-1024x861.jpg"
-            },
-            {
-                "id": 84590,
-                "price": 0,
-                "attributes": {
-                    "cloth": "lin-yesna"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/5095-scaled-1-1024x861.jpg"
-            },
-            {
-                "id": 84600,
-                "price": 585000,
-                "attributes": {
-                    "cloth": "velvet-overcoat"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/5095-scaled-1-1024x861.jpg"
-            },
-            {
-                "id": 84611,
-                "price": 809000,
-                "attributes": {
-                    "cloth": "match-velvet"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/5095-scaled-1-1024x861.jpg"
-            }
-        ]
-    },
-    {
-        "id": 9388,
-        "sku": "5097",
-        "name": "طرح گیلاس خالدار|کد 5097",
-        "type": "variable",
-        "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/5097-scaled-1-1024x861.jpg",
-        "variations": [
-            {
-                "id": 84576,
-                "price": 609000,
-                "attributes": {
-                    "cloth": "jacquard"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/5097-scaled-1-1024x861.jpg"
-            },
-            {
-                "id": 84591,
-                "price": 427000,
-                "attributes": {
-                    "cloth": "crepe-bugatti"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/5097-scaled-1-1024x861.jpg"
-            },
-            {
-                "id": 84602,
-                "price": 0,
-                "attributes": {
-                    "cloth": "lin-yesna"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/5097-scaled-1-1024x861.jpg"
-            },
-            {
-                "id": 84613,
-                "price": 585000,
-                "attributes": {
-                    "cloth": "velvet-overcoat"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/5097-scaled-1-1024x861.jpg"
-            },
-            {
-                "id": 84623,
-                "price": 809000,
-                "attributes": {
-                    "cloth": "match-velvet"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/5097-scaled-1-1024x861.jpg"
-            }
-        ]
-    },
-    {
-        "id": 9372,
-        "sku": "5099",
-        "name": "طرح توت فرنگی  |کد 5099",
-        "type": "variable",
-        "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/5099-scaled-1-1024x861.jpg",
-        "variations": [
-            {
-                "id": 84593,
-                "price": 609000,
-                "attributes": {
-                    "cloth": "jacquard"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/5099-scaled-1-1024x861.jpg"
-            },
-            {
-                "id": 84610,
-                "price": 427000,
-                "attributes": {
-                    "cloth": "crepe-bugatti"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/5099-scaled-1-1024x861.jpg"
-            },
-            {
-                "id": 84621,
-                "price": 0,
-                "attributes": {
-                    "cloth": "lin-yesna"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/5099-scaled-1-1024x861.jpg"
-            },
-            {
-                "id": 84633,
-                "price": 585000,
-                "attributes": {
-                    "cloth": "velvet-overcoat"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/5099-scaled-1-1024x861.jpg"
-            },
-            {
-                "id": 84644,
-                "price": 809000,
-                "attributes": {
-                    "cloth": "match-velvet"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/5099-scaled-1-1024x861.jpg"
-            }
-        ]
-    },
-    {
-        "id": 9356,
-        "sku": "5096",
-        "name": "طرح ونگوک VANGOC|کد 5096",
-        "type": "variable",
-        "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/5096-scaled-1-1024x861.jpg",
-        "variations": [
-            {
-                "id": 84601,
-                "price": 609000,
-                "attributes": {
-                    "cloth": "jacquard"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/5096-scaled-1-1024x861.jpg"
-            },
-            {
-                "id": 84618,
-                "price": 427000,
-                "attributes": {
-                    "cloth": "crepe-bugatti"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/5096-scaled-1-1024x861.jpg"
-            },
-            {
-                "id": 84627,
-                "price": 0,
-                "attributes": {
-                    "cloth": "lin-yesna"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/5096-scaled-1-1024x861.jpg"
-            },
-            {
-                "id": 84637,
-                "price": 585000,
-                "attributes": {
-                    "cloth": "velvet-overcoat"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/5096-scaled-1-1024x861.jpg"
-            },
-            {
-                "id": 84646,
-                "price": 809000,
-                "attributes": {
-                    "cloth": "match-velvet"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/5096-scaled-1-1024x861.jpg"
-            }
-        ]
-    },
-    {
-        "id": 9348,
-        "sku": "5093",
-        "name": "طرح برون لاین فرندز شکلاتی | کد 5093",
-        "type": "variable",
-        "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/5093-scaled-1-1024x861.jpg",
-        "variations": [
-            {
-                "id": 84614,
-                "price": 609000,
-                "attributes": {
-                    "cloth": "jacquard"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/5093-scaled-1-1024x861.jpg"
-            },
-            {
-                "id": 84630,
-                "price": 427000,
-                "attributes": {
-                    "cloth": "crepe-bugatti"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/5093-scaled-1-1024x861.jpg"
-            },
-            {
-                "id": 84636,
-                "price": 0,
-                "attributes": {
-                    "cloth": "lin-yesna"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/5093-scaled-1-1024x861.jpg"
-            },
-            {
-                "id": 84641,
-                "price": 585000,
-                "attributes": {
-                    "cloth": "velvet-overcoat"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/5093-scaled-1-1024x861.jpg"
-            },
-            {
-                "id": 84648,
-                "price": 809000,
-                "attributes": {
-                    "cloth": "match-velvet"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/5093-scaled-1-1024x861.jpg"
             }
         ]
     }

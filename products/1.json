@@ -5,6 +5,7 @@
         "name": "قلبی ریز قرمز | کد 6920",
         "type": "variable",
         "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2025\/11\/5780748624772926288.jpg",
+        "status": "publish",
         "variations": [
             {
                 "id": 112138,
@@ -45,11 +46,58 @@
         ]
     },
     {
+        "id": 112129,
+        "sku": "",
+        "name": "قلبی ریز قرمز | کد 6920",
+        "type": "variable",
+        "image": "",
+        "status": "draft",
+        "variations": [
+            {
+                "id": 112130,
+                "price": 609000,
+                "attributes": {
+                    "cloth": "jacquard"
+                },
+                "stock": null,
+                "image": ""
+            },
+            {
+                "id": 112131,
+                "price": 427000,
+                "attributes": {
+                    "cloth": "crepe-bugatti"
+                },
+                "stock": null,
+                "image": ""
+            },
+            {
+                "id": 112132,
+                "price": 585000,
+                "attributes": {
+                    "cloth": "velvet-overcoat"
+                },
+                "stock": null,
+                "image": ""
+            },
+            {
+                "id": 112133,
+                "price": 809000,
+                "attributes": {
+                    "cloth": "match-velvet"
+                },
+                "stock": null,
+                "image": ""
+            }
+        ]
+    },
+    {
         "id": 111844,
         "sku": "6919",
         "name": "پاپیون کره ای | کد 6919",
         "type": "variable",
         "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2025\/10\/5764849605030906756-1024x1024.jpg",
+        "status": "publish",
         "variations": [
             {
                 "id": 111845,
@@ -95,6 +143,7 @@
         "name": "پاپیون موکا‌ 🤎| کد 6918",
         "type": "variable",
         "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2025\/10\/6037470051394325495-1024x1024.jpg",
+        "status": "publish",
         "variations": [
             {
                 "id": 111811,
@@ -140,6 +189,7 @@
         "name": "قلبی شکلاتی | کد 6917",
         "type": "variable",
         "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2025\/10\/6037470051394325493-1024x1024.jpg",
+        "status": "publish",
         "variations": [
             {
                 "id": 111798,
@@ -185,6 +235,7 @@
         "name": "پاپیون گره ای صورتی | کد 6916",
         "type": "variable",
         "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2025\/10\/6037470051394325484-1-1024x1024.jpg",
+        "status": "publish",
         "variations": [
             {
                 "id": 111781,
@@ -230,6 +281,7 @@
         "name": "پاپیون گره ای شکلاتی | کد 6915",
         "type": "variable",
         "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2025\/10\/6037470051394325483-1024x1024.jpg",
+        "status": "publish",
         "variations": [
             {
                 "id": 111769,
@@ -270,11 +322,21 @@
         ]
     },
     {
+        "id": 111764,
+        "sku": "",
+        "name": "پاپیون گره ای شکلاتی | کد 6915",
+        "type": "variable",
+        "image": "",
+        "status": "draft",
+        "variations": []
+    },
+    {
         "id": 111750,
         "sku": "6914",
         "name": "پاپیون گره ای سورمه ای | کد 6914",
         "type": "variable",
         "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2025\/10\/6037470051394325481-1024x1024.jpg",
+        "status": "publish",
         "variations": [
             {
                 "id": 111754,
@@ -320,6 +382,7 @@
         "name": "گل بهارینه | کد 6913",
         "type": "variable",
         "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2025\/10\/6030401467229262218-1024x1024.jpg",
+        "status": "publish",
         "variations": [
             {
                 "id": 111722,
@@ -365,6 +428,7 @@
         "name": "گل زرشکی | کد 6912",
         "type": "variable",
         "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2025\/10\/IMG_0142-1024x1024.jpeg",
+        "status": "publish",
         "variations": [
             {
                 "id": 111367,
@@ -410,6 +474,7 @@
         "name": "بابونه کرم شکلاتی | کد 6911",
         "type": "variable",
         "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2025\/10\/6003726507685562824-1024x1024.jpg",
+        "status": "publish",
         "variations": [
             {
                 "id": 111353,
@@ -455,6 +520,7 @@
         "name": "باغ پرنده سرمه ای | کد 6910",
         "type": "variable",
         "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2025\/10\/5987666418080009743.jpg",
+        "status": "publish",
         "variations": [
             {
                 "id": 110839,
@@ -500,6 +566,7 @@
         "name": "گوچی تیره | کد 6909",
         "type": "variable",
         "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2025\/10\/5987666418080009741-1024x1024.jpg",
+        "status": "publish",
         "variations": [
             {
                 "id": 110819,
@@ -545,6 +612,7 @@
         "name": "رز خال خالی | کد 6908",
         "type": "variable",
         "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2025\/09\/5972110957066964672-1024x1024.jpg",
+        "status": "publish",
         "variations": [
             {
                 "id": 109937,
@@ -590,6 +658,7 @@
         "name": "رز پاریسی | کد 6907",
         "type": "variable",
         "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2025\/09\/5972110957066964667-1024x1024.jpg",
+        "status": "publish",
         "variations": [
             {
                 "id": 109921,
@@ -635,6 +704,7 @@
         "name": "تدی ابنباتی | کد 6906",
         "type": "variable",
         "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2025\/09\/5953847884246011578-1024x1024.jpg",
+        "status": "publish",
         "variations": [
             {
                 "id": 109667,
@@ -680,6 +750,7 @@
         "name": "پلنگی ریز 🐆 | کد 6905",
         "type": "variable",
         "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2025\/09\/5953847884246011575-1024x1024.jpg",
+        "status": "publish",
         "variations": [
             {
                 "id": 109654,
@@ -725,6 +796,7 @@
         "name": "پلنگی 🐆 | کد 6904",
         "type": "variable",
         "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2025\/09\/5953847884246011568-1024x1024.jpg",
+        "status": "publish",
         "variations": [
             {
                 "id": 109637,
@@ -770,6 +842,7 @@
         "name": "پینک ریبون | کد 6903",
         "type": "variable",
         "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2025\/09\/5953847884246011564-1024x1024.jpg",
+        "status": "publish",
         "variations": [
             {
                 "id": 109621,
@@ -815,6 +888,7 @@
         "name": "پاپیونلی | کد 6902",
         "type": "variable",
         "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2025\/09\/5953847884246011562-1024x1024.jpg",
+        "status": "publish",
         "variations": [
             {
                 "id": 109604,
@@ -860,6 +934,7 @@
         "name": "پاپیون گلی | کد 6901",
         "type": "variable",
         "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2025\/09\/5953847884246011559.jpg",
+        "status": "publish",
         "variations": [
             {
                 "id": 109590,
@@ -905,6 +980,7 @@
         "name": "باغ پروانه | کد 6900",
         "type": "variable",
         "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2025\/09\/5933752844664554835-1024x1024.jpg",
+        "status": "publish",
         "variations": [
             {
                 "id": 107338,
@@ -950,6 +1026,7 @@
         "name": "پروانه ستاره ای | کد 6896",
         "type": "variable",
         "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2025\/09\/5933752844664554842-1-1024x1024.jpg",
+        "status": "publish",
         "variations": [
             {
                 "id": 107321,
@@ -995,6 +1072,7 @@
         "name": "تدی خال خالی | کد 6897",
         "type": "variable",
         "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2025\/09\/5933752844664554846-1024x1024.jpg",
+        "status": "publish",
         "variations": [
             {
                 "id": 107306,
@@ -1040,6 +1118,7 @@
         "name": "قو ساکورایی 🦢 |کد 6899",
         "type": "variable",
         "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2025\/09\/photo_2025-09-07_13-24-55-1024x1024.jpg",
+        "status": "publish",
         "variations": [
             {
                 "id": 107293,
@@ -1085,6 +1164,7 @@
         "name": "گل مینیمال | کد 6895",
         "type": "variable",
         "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2025\/09\/6895-1024x1024.jpg",
+        "status": "publish",
         "variations": [
             {
                 "id": 107035,
@@ -1139,6 +1219,7 @@
         "name": "شکوفه پاییزی | کد 6894",
         "type": "variable",
         "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2025\/09\/6894-1024x1024.jpg",
+        "status": "publish",
         "variations": [
             {
                 "id": 107019,
@@ -1193,6 +1274,7 @@
         "name": "شکوفه شب | کد 6892",
         "type": "variable",
         "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2025\/08\/photo_2025-08-18_01-01-03-1024x1024.jpg",
+        "status": "publish",
         "variations": [
             {
                 "id": 101581,
@@ -1247,6 +1329,7 @@
         "name": "گل سنبل یاسی | کد 6891",
         "type": "variable",
         "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2025\/08\/photo_2025-08-18_00-58-39-1024x1024.jpg",
+        "status": "publish",
         "variations": [
             {
                 "id": 101565,
@@ -1301,6 +1384,7 @@
         "name": "گل پینکورا | کد 6890",
         "type": "variable",
         "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2025\/08\/photo_2025-08-18_00-57-52-1024x1024.jpg",
+        "status": "publish",
         "variations": [
             {
                 "id": 101549,
@@ -1355,6 +1439,7 @@
         "name": "گل پاستیلی | کد 6889",
         "type": "variable",
         "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2025\/08\/photo_2025-08-18_00-55-36-1024x1024.jpg",
+        "status": "publish",
         "variations": [
             {
                 "id": 101534,
@@ -1409,6 +1494,7 @@
         "name": "پرنده طلایی | کد 6888",
         "type": "variable",
         "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2025\/08\/photo_2025-08-11_08-38-28-1024x1024.jpg",
+        "status": "publish",
         "variations": [
             {
                 "id": 99910,
@@ -1463,6 +1549,7 @@
         "name": "آبی تک رنگ | کد 6887",
         "type": "variable",
         "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2025\/08\/WhatsApp-Image-2025-11-04-at-9.50.03-AM-1024x1024.jpeg",
+        "status": "publish",
         "variations": [
             {
                 "id": 99894,
@@ -1517,6 +1604,7 @@
         "name": "پرنده کرمی یلدایی  | کد 6886",
         "type": "variable",
         "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2025\/08\/photo_2025-08-11_08-32-04-1024x1024.jpg",
+        "status": "publish",
         "variations": [
             {
                 "id": 99879,
@@ -1571,6 +1659,7 @@
         "name": "گنجشک شاخه نشین | کد 6885",
         "type": "variable",
         "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2025\/07\/photo_2025-07-30_20-48-58-1024x1024.jpg",
+        "status": "publish",
         "variations": [
             {
                 "id": 96417,
@@ -1625,6 +1714,7 @@
         "name": "بلبل آبرنگی | کد 6884",
         "type": "variable",
         "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2025\/07\/photo_2025-07-30_20-43-07-1024x1024.jpg",
+        "status": "publish",
         "variations": [
             {
                 "id": 96400,
@@ -1679,6 +1769,7 @@
         "name": "لبوبو و پاپیون | کد 6882",
         "type": "variable",
         "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2025\/07\/photo_2025-07-28_13-49-06-1024x1024.jpg",
+        "status": "publish",
         "variations": [
             {
                 "id": 95426,
@@ -1733,6 +1824,7 @@
         "name": "لبوبو آبی مه آلود | کد 6881",
         "type": "variable",
         "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2025\/07\/photo_2025-07-28_13-48-20-1024x1024.jpg",
+        "status": "publish",
         "variations": [
             {
                 "id": 95409,
@@ -1787,6 +1879,7 @@
         "name": "لبوبو مشکی| کد 6883",
         "type": "variable",
         "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2025\/07\/photo_2025-07-28_13-34-53-1024x1024.jpg",
+        "status": "publish",
         "variations": [
             {
                 "id": 95394,
@@ -1841,6 +1934,7 @@
         "name": "لبوبو ماچا | کد 6880",
         "type": "variable",
         "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2025\/07\/photo_2025-07-28_13-34-16-1024x1024.jpg",
+        "status": "publish",
         "variations": [
             {
                 "id": 95380,
@@ -1895,6 +1989,7 @@
         "name": "پاپیون راه راه ابی | کد 6874",
         "type": "variable",
         "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2025\/07\/Blue-striped-bow-tie-1024x1024.jpg",
+        "status": "publish",
         "variations": [
             {
                 "id": 90552,
@@ -1949,6 +2044,7 @@
         "name": "پاپیون راه راه شیری | کد 6873",
         "type": "variable",
         "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2025\/07\/Milky-striped-bow-tie-1024x1024.jpg",
+        "status": "publish",
         "variations": [
             {
                 "id": 90537,
@@ -2003,6 +2099,7 @@
         "name": "پاپیون راه راه صورتی | کد 6872",
         "type": "variable",
         "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2025\/07\/Pink-striped-bow-tie-1-1024x1024.jpg",
+        "status": "publish",
         "variations": [
             {
                 "id": 90519,
@@ -2057,6 +2154,7 @@
         "name": "پاپیون راه راه شکلاتی | کد 6871",
         "type": "variable",
         "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2025\/07\/Chocolate-striped-bow-tie-1-1024x1024.jpg",
+        "status": "publish",
         "variations": [
             {
                 "id": 90503,
@@ -2111,6 +2209,7 @@
         "name": "پاپیون گیپور مشکی| کد 6870",
         "type": "variable",
         "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2025\/07\/Black-guipure-bow-tie-1-1024x1024.jpg",
+        "status": "publish",
         "variations": [
             {
                 "id": 90490,
@@ -2165,6 +2264,7 @@
         "name": "شکوفه صورتی پودری | کد 6864",
         "type": "variable",
         "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2025\/07\/Powder-Pink-Blossom-Code-6864-1024x1024.jpg",
+        "status": "publish",
         "variations": [
             {
                 "id": 87947,
@@ -2219,6 +2319,7 @@
         "name": "تک رنگ صورتی پودری | کد 6865",
         "type": "variable",
         "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2025\/07\/WhatsApp-Image-2025-11-04-at-9.50.03-AM-1-768x1024.jpeg",
+        "status": "publish",
         "variations": [
             {
                 "id": 87934,
@@ -2273,6 +2374,7 @@
         "name": "شکوفه ماچا 🍃 | کد 6866",
         "type": "variable",
         "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2025\/07\/Matcha-Blossom-Code-6866-1024x1024.jpg",
+        "status": "publish",
         "variations": [
             {
                 "id": 87918,
@@ -2327,6 +2429,7 @@
         "name": "تک رنگ سبز ماچا | کد 6867",
         "type": "variable",
         "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2025\/07\/WhatsApp-Image-2025-11-04-at-9.50.04-AM-768x1024.jpeg",
+        "status": "publish",
         "variations": [
             {
                 "id": 87903,
@@ -2381,6 +2484,7 @@
         "name": "لاله زرد | کد 6868",
         "type": "variable",
         "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2025\/07\/Yellow-Tulip-Code-6868-1024x1024.jpg",
+        "status": "publish",
         "variations": [
             {
                 "id": 87887,
@@ -2435,6 +2539,7 @@
         "name": "تک رنگ زرد کره ای 🧈| کد 6869",
         "type": "variable",
         "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2025\/07\/WhatsApp-Image-2025-11-04-at-9.50.02-AM-768x1024.jpeg",
+        "status": "publish",
         "variations": [
             {
                 "id": 87863,
@@ -2489,6 +2594,7 @@
         "name": "رز صورتی 🌹 | کد 6876",
         "type": "variable",
         "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2025\/06\/Pink-rose-1024x1024.jpg",
+        "status": "publish",
         "variations": [
             {
                 "id": 75753,
@@ -2543,6 +2649,7 @@
         "name": "گل ریز ابی | کد 6877",
         "type": "variable",
         "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2025\/06\/Blue-flower-1024x1024.jpg",
+        "status": "publish",
         "variations": [
             {
                 "id": 78139,
@@ -2597,6 +2704,7 @@
         "name": "شکوفه سبز | کد 6879",
         "type": "variable",
         "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2025\/06\/Green-Blossom-1024x1024.jpg",
+        "status": "publish",
         "variations": [
             {
                 "id": 78150,
@@ -2651,6 +2759,7 @@
         "name": "پروانه مونِلا | کد 6863",
         "type": "variable",
         "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2025\/06\/Monella-butterfly-2-1024x1024.jpg",
+        "status": "publish",
         "variations": [
             {
                 "id": 75408,
@@ -2705,6 +2814,7 @@
         "name": "پاپیون گلی ریز | کد 6862",
         "type": "variable",
         "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2025\/06\/Small-floral-bow-tie-1024x1024.jpg",
+        "status": "publish",
         "variations": [
             {
                 "id": 72170,
@@ -2759,6 +2869,7 @@
         "name": "پاپیون درشت مشکی | کد 6861",
         "type": "variable",
         "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2025\/06\/Big-black-bow-tie-2-1024x1024.jpg",
+        "status": "publish",
         "variations": [
             {
                 "id": 78202,
@@ -2813,6 +2924,7 @@
         "name": "پاپیون مرواریدی | کد 6860",
         "type": "variable",
         "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2025\/06\/Pearl-bow-tie-1-1024x1024.jpg",
+        "status": "publish",
         "variations": [
             {
                 "id": 78217,
@@ -2867,6 +2979,7 @@
         "name": "لیمو و طوطی 🍋 | کد 6859",
         "type": "variable",
         "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2025\/06\/Lemon-and-parrot-1024x1024.jpg",
+        "status": "publish",
         "variations": [
             {
                 "id": 78230,
@@ -2916,11 +3029,192 @@
         ]
     },
     {
+        "id": 69643,
+        "sku": "",
+        "name": "پیراهن باغ هزار گل | کد 101",
+        "type": "variable",
+        "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2025\/05\/Garden-Thousand-Flowers-Shirt-1024x1024.jpg",
+        "status": "draft",
+        "variations": [
+            {
+                "id": 87057,
+                "price": 3248000,
+                "attributes": {
+                    "pa_size": "size-1",
+                    "pa_height": "height-135"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2025\/05\/Garden-Thousand-Flowers-Shirt-1024x1024.jpg"
+            },
+            {
+                "id": 87058,
+                "price": 3248000,
+                "attributes": {
+                    "pa_size": "size-1",
+                    "pa_height": "height-145"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2025\/05\/Garden-Thousand-Flowers-Shirt-1024x1024.jpg"
+            },
+            {
+                "id": 87059,
+                "price": 3248000,
+                "attributes": {
+                    "pa_size": "size-2",
+                    "pa_height": "height-135"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2025\/05\/Garden-Thousand-Flowers-Shirt-1024x1024.jpg"
+            },
+            {
+                "id": 87060,
+                "price": 3248000,
+                "attributes": {
+                    "pa_size": "size-2",
+                    "pa_height": "height-145"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2025\/05\/Garden-Thousand-Flowers-Shirt-1024x1024.jpg"
+            },
+            {
+                "id": 87061,
+                "price": 3248000,
+                "attributes": {
+                    "pa_size": "size-3",
+                    "pa_height": "height-135"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2025\/05\/Garden-Thousand-Flowers-Shirt-1024x1024.jpg"
+            },
+            {
+                "id": 87062,
+                "price": 3248000,
+                "attributes": {
+                    "pa_size": "size-3",
+                    "pa_height": "height-145"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2025\/05\/Garden-Thousand-Flowers-Shirt-1024x1024.jpg"
+            },
+            {
+                "id": 87063,
+                "price": 3248000,
+                "attributes": {
+                    "pa_size": "size-4",
+                    "pa_height": "height-135"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2025\/05\/Garden-Thousand-Flowers-Shirt-1024x1024.jpg"
+            },
+            {
+                "id": 87064,
+                "price": 3248000,
+                "attributes": {
+                    "pa_size": "size-4",
+                    "pa_height": "height-145"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2025\/05\/Garden-Thousand-Flowers-Shirt-1024x1024.jpg"
+            }
+        ]
+    },
+    {
+        "id": 69609,
+        "sku": "",
+        "name": "پیراهن گل سبز پینترستی | کد 100",
+        "type": "variable",
+        "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2025\/05\/Green-flower-Pinterest-1024x1024.jpg",
+        "status": "draft",
+        "variations": [
+            {
+                "id": 69618,
+                "price": 2184000,
+                "attributes": {
+                    "pa_size": "size-1",
+                    "pa_height": "height-135"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2025\/05\/Green-flower-Pinterest-1024x1024.jpg"
+            },
+            {
+                "id": 69619,
+                "price": 2184000,
+                "attributes": {
+                    "pa_size": "size-1",
+                    "pa_height": "height-145"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2025\/05\/Green-flower-Pinterest-1024x1024.jpg"
+            },
+            {
+                "id": 69620,
+                "price": 2184000,
+                "attributes": {
+                    "pa_size": "size-2",
+                    "pa_height": "height-135"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2025\/05\/Green-flower-Pinterest-1024x1024.jpg"
+            },
+            {
+                "id": 69621,
+                "price": 2184000,
+                "attributes": {
+                    "pa_size": "size-2",
+                    "pa_height": "height-145"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2025\/05\/Green-flower-Pinterest-1024x1024.jpg"
+            },
+            {
+                "id": 69622,
+                "price": 2184000,
+                "attributes": {
+                    "pa_size": "size-3",
+                    "pa_height": "height-135"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2025\/05\/Green-flower-Pinterest-1024x1024.jpg"
+            },
+            {
+                "id": 69623,
+                "price": 2184000,
+                "attributes": {
+                    "pa_size": "size-3",
+                    "pa_height": "height-145"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2025\/05\/Green-flower-Pinterest-1024x1024.jpg"
+            },
+            {
+                "id": 69624,
+                "price": 2184000,
+                "attributes": {
+                    "pa_size": "size-4",
+                    "pa_height": "height-135"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2025\/05\/Green-flower-Pinterest-1024x1024.jpg"
+            },
+            {
+                "id": 69625,
+                "price": 2184000,
+                "attributes": {
+                    "pa_size": "size-4",
+                    "pa_height": "height-145"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2025\/05\/Green-flower-Pinterest-1024x1024.jpg"
+            }
+        ]
+    },
+    {
         "id": 65631,
         "sku": "6858",
         "name": "پروانه لونا ✨ | کد 6858",
         "type": "variable",
         "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2025\/05\/Luna-Butterfly-1-1024x1024.jpg",
+        "status": "publish",
         "variations": [
             {
                 "id": 78245,
@@ -2975,6 +3269,7 @@
         "name": "قلبی ریز | کد 6857",
         "type": "variable",
         "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2025\/05\/tiny-heart-1-1024x1024.jpg",
+        "status": "publish",
         "variations": [
             {
                 "id": 78258,
@@ -3029,6 +3324,7 @@
         "name": "پاپیون خالدار ریز | کد 6856",
         "type": "variable",
         "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2025\/05\/Tiny-polka-dot-bow-tie-1024x1024.jpg",
+        "status": "publish",
         "variations": [
             {
                 "id": 78272,
@@ -3083,6 +3379,7 @@
         "name": "پاپیون لند | کد 6855",
         "type": "variable",
         "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2025\/05\/Bow-Tie-Land-1-1024x1024.jpg",
+        "status": "publish",
         "variations": [
             {
                 "id": 78284,
@@ -3137,6 +3434,7 @@
         "name": "گل کریستالی 🌸| کد 6854",
         "type": "variable",
         "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2025\/05\/6854-1024x1024.jpg",
+        "status": "publish",
         "variations": [
             {
                 "id": 78298,
@@ -3191,6 +3489,7 @@
         "name": "پاپیون و گل صورتی 🌸🎀 | کد 6853",
         "type": "variable",
         "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2025\/05\/6853-1024x1024.jpg",
+        "status": "publish",
         "variations": [
             {
                 "id": 78312,
@@ -3245,6 +3544,7 @@
         "name": "رز زرد | کد 6852",
         "type": "variable",
         "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2025\/04\/photo_5785321609593211023_y-1024x1024.jpg",
+        "status": "publish",
         "variations": [
             {
                 "id": 78326,
@@ -3299,6 +3599,7 @@
         "name": "مه گل | کد 6850",
         "type": "variable",
         "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2025\/04\/photo_5785321609593211006_y-1-1024x1024.jpg",
+        "status": "publish",
         "variations": [
             {
                 "id": 78338,
@@ -3353,6 +3654,7 @@
         "name": "شکوفه صورتی | کد 6849",
         "type": "variable",
         "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2025\/04\/photo_5785321609593211001_y-1024x1024.jpg",
+        "status": "publish",
         "variations": [
             {
                 "id": 78363,
@@ -3407,6 +3709,7 @@
         "name": "رزگون ابی | کد 6851",
         "type": "variable",
         "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2025\/04\/photo_5785321609593211009_y-1024x1024.jpg",
+        "status": "publish",
         "variations": [
             {
                 "id": 78374,
@@ -3461,6 +3764,7 @@
         "name": "گل گل صورتی | کد 6847",
         "type": "variable",
         "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2025\/04\/photo_5773815332077683693_y-1024x1024.jpg",
+        "status": "publish",
         "variations": [
             {
                 "id": 78393,
@@ -3515,6 +3819,7 @@
         "name": "پروانه کهکشانی | کد 6846",
         "type": "variable",
         "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2025\/04\/photo_5773815332077683692_y-1024x1024.jpg",
+        "status": "publish",
         "variations": [
             {
                 "id": 78406,
@@ -3569,6 +3874,7 @@
         "name": "باغ طاووسی آبی | کد 6842",
         "type": "variable",
         "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2025\/04\/IMG_20250416_183229_749-1024x1024.jpg",
+        "status": "publish",
         "variations": [
             {
                 "id": 78418,
@@ -3623,6 +3929,7 @@
         "name": "شکوفه زار صورتی | کد 6844",
         "type": "variable",
         "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2025\/04\/IMG_20250416_183224_052-1024x1024.jpg",
+        "status": "publish",
         "variations": [
             {
                 "id": 78443,
@@ -3677,6 +3984,7 @@
         "name": "بلبل کرمی| کد 6845",
         "type": "variable",
         "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2025\/04\/IMG_20250416_175732_733-1024x1024.jpg",
+        "status": "publish",
         "variations": [
             {
                 "id": 78456,
@@ -3731,6 +4039,7 @@
         "name": "گل و پرنده زمردی| کد 6843",
         "type": "variable",
         "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2025\/04\/IMG_20250416_174918_567-1024x1024.jpg",
+        "status": "publish",
         "variations": [
             {
                 "id": 78479,
@@ -3785,6 +4094,7 @@
         "name": "هلو کیتی پاپیون گلبهی |  کد 6841",
         "type": "variable",
         "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2025\/03\/5990308647600769447-1-1024x1024.jpg",
+        "status": "publish",
         "variations": [
             {
                 "id": 78492,
@@ -3839,6 +4149,7 @@
         "name": "شکوفه و گنجشک کرمی | کد 6838",
         "type": "variable",
         "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2025\/03\/IMG_20250305_224327_652-1024x1024.jpg",
+        "status": "publish",
         "variations": [
             {
                 "id": 78505,
@@ -3893,6 +4204,7 @@
         "name": "شکوفه و گنجشک سبز | کد 6839",
         "type": "variable",
         "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2025\/03\/IMG_20250305_224031_874-1024x970.jpg",
+        "status": "publish",
         "variations": [
             {
                 "id": 78510,
@@ -3947,6 +4259,7 @@
         "name": "باغ پرنده 🍃🕊️ | کد 6840",
         "type": "variable",
         "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2025\/03\/IMG_20250305_223023_022-1024x1024.jpg",
+        "status": "publish",
         "variations": [
             {
                 "id": 78525,
@@ -4001,6 +4314,7 @@
         "name": "کرم تک رنگ | کد 6837",
         "type": "variable",
         "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2025\/02\/IMG_20250222_232304_695-1024x1024.jpg",
+        "status": "publish",
         "variations": [
             {
                 "id": 78536,
@@ -4055,6 +4369,7 @@
         "name": "باغ هزار گل سرمه ای | کد 6836",
         "type": "variable",
         "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2025\/02\/IMG_20250222_231309_649-1024x1024.jpg",
+        "status": "publish",
         "variations": [
             {
                 "id": 78545,
@@ -4109,6 +4424,7 @@
         "name": "فرش قرمز ایرانی🇮🇷 ( پنل1*1\/5 متر ) | کد 6804",
         "type": "variable",
         "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2025\/02\/IMG_5424-768x1024.jpg",
+        "status": "publish",
         "variations": [
             {
                 "id": 78555,
@@ -4163,6 +4479,7 @@
         "name": "شکوفه ی کارامل | کد 6835",
         "type": "variable",
         "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2025\/02\/IMG_20250213_213348_053-1024x1024.jpg",
+        "status": "publish",
         "variations": [
             {
                 "id": 78569,
@@ -4217,6 +4534,7 @@
         "name": "پلنگی قهوه ای | کد 6834",
         "type": "variable",
         "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2025\/02\/IMG_20250213_213000_094-1024x1024.jpg",
+        "status": "publish",
         "variations": [
             {
                 "id": 78581,
@@ -4271,6 +4589,7 @@
         "name": "پاپیون شکلاتی | کد 6833",
         "type": "variable",
         "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2025\/02\/IMG_20250213_212111_151-1024x1024.jpg",
+        "status": "publish",
         "variations": [
             {
                 "id": 78589,
@@ -4325,6 +4644,7 @@
         "name": "چهارخونه قرمز | کد 6832",
         "type": "variable",
         "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2025\/02\/IMG_20250209_230525_460-1024x1024.jpg",
+        "status": "publish",
         "variations": [
             {
                 "id": 78595,
@@ -4379,6 +4699,7 @@
         "name": "بتمن | کد 6830",
         "type": "variable",
         "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2025\/02\/IMG_20250209_230520_961-1024x1024.jpg",
+        "status": "publish",
         "variations": [
             {
                 "id": 78607,
@@ -4433,6 +4754,7 @@
         "name": "اسپایدر من | کد 6831",
         "type": "variable",
         "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2025\/02\/IMG_20250209_230515_393-1024x1024.jpg",
+        "status": "publish",
         "variations": [
             {
                 "id": 78623,
@@ -4487,6 +4809,7 @@
         "name": "پروانه موکا | کد 6829",
         "type": "variable",
         "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2025\/02\/WhatsApp-Image-2025-02-02-at-23.00.511-1024x1024.jpeg",
+        "status": "publish",
         "variations": [
             {
                 "id": 78630,
@@ -4541,6 +4864,7 @@
         "name": "شکوفه ریز شکلاتی | کد 6827",
         "type": "variable",
         "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2025\/02\/WhatsApp-Image-2025-02-02-at-23.00.40-1024x1024.jpeg",
+        "status": "publish",
         "variations": [
             {
                 "id": 78679,
@@ -4595,6 +4919,7 @@
         "name": "قلب شکلاتی 🍫 | کد 6826",
         "type": "variable",
         "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2025\/02\/WhatsApp-Image-2025-02-02-at-23.00.28-1024x1024.jpeg",
+        "status": "publish",
         "variations": [
             {
                 "id": 78686,
@@ -4649,6 +4974,7 @@
         "name": "گل اسلیمی سرخابی | کد 6823",
         "type": "variable",
         "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2025\/01\/WhatsApp-Image-2025-01-30-at-18.23.42-1024x1024.jpeg",
+        "status": "publish",
         "variations": [
             {
                 "id": 78698,
@@ -4703,6 +5029,7 @@
         "name": "گل ترنج زرد | کد 6824",
         "type": "variable",
         "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2025\/01\/WhatsApp-Image-2025-01-30-at-18.23.25-1024x1024.jpeg",
+        "status": "publish",
         "variations": [
             {
                 "id": 78703,
@@ -4757,6 +5084,7 @@
         "name": "کاشی گل ابی | کد 6825",
         "type": "variable",
         "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2025\/01\/WhatsApp-Image-2025-01-30-at-18.23.01-1024x1024.jpeg",
+        "status": "publish",
         "variations": [
             {
                 "id": 78719,
@@ -4811,6 +5139,7 @@
         "name": "گل ترمه نارنجی | کد 6822",
         "type": "variable",
         "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2025\/01\/WhatsApp-Image-2025-01-30-at-18.22.39-1024x1024.jpeg",
+        "status": "publish",
         "variations": [
             {
                 "id": 78731,
@@ -4865,6 +5194,7 @@
         "name": "گوچی صورتی | کد 6821",
         "type": "variable",
         "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2025\/01\/IMG_20250129_225650_618-1024x1024.jpg",
+        "status": "publish",
         "variations": [
             {
                 "id": 78737,
@@ -4919,6 +5249,7 @@
         "name": "فندی صورتی | کد 6820",
         "type": "variable",
         "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2025\/01\/IMG_20250129_225647_368-1024x1024.jpg",
+        "status": "publish",
         "variations": [
             {
                 "id": 78748,
@@ -4964,222 +5295,6 @@
                 },
                 "stock": null,
                 "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2025\/01\/IMG_20250129_225647_368-1024x1024.jpg"
-            }
-        ]
-    },
-    {
-        "id": 26097,
-        "sku": "6819",
-        "name": "دیور صورتی | کد 6819",
-        "type": "variable",
-        "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2025\/01\/IMG_20250129_225642_429-1024x1024.jpg",
-        "variations": [
-            {
-                "id": 78762,
-                "price": 609000,
-                "attributes": {
-                    "cloth": "jacquard"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2025\/01\/IMG_20250129_225642_429-1024x1024.jpg"
-            },
-            {
-                "id": 78771,
-                "price": 427000,
-                "attributes": {
-                    "cloth": "crepe-bugatti"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2025\/01\/IMG_20250129_225642_429-1024x1024.jpg"
-            },
-            {
-                "id": 78773,
-                "price": 0,
-                "attributes": {
-                    "cloth": "lin-yesna"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2025\/01\/IMG_20250129_225642_429-1024x1024.jpg"
-            },
-            {
-                "id": 78777,
-                "price": 585000,
-                "attributes": {
-                    "cloth": "velvet-overcoat"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2025\/01\/IMG_20250129_225642_429-1024x1024.jpg"
-            },
-            {
-                "id": 78781,
-                "price": 809000,
-                "attributes": {
-                    "cloth": "match-velvet"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2025\/01\/IMG_20250129_225642_429-1024x1024.jpg"
-            }
-        ]
-    },
-    {
-        "id": 26084,
-        "sku": "6815",
-        "name": "گل افسون | کد 6815",
-        "type": "variable",
-        "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2025\/01\/IMG_20250129_225544_857-1024x1024.jpg",
-        "variations": [
-            {
-                "id": 78776,
-                "price": 609000,
-                "attributes": {
-                    "cloth": "jacquard"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2025\/01\/IMG_20250129_225544_857-1024x1024.jpg"
-            },
-            {
-                "id": 78783,
-                "price": 427000,
-                "attributes": {
-                    "cloth": "crepe-bugatti"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2025\/01\/IMG_20250129_225544_857-1024x1024.jpg"
-            },
-            {
-                "id": 78786,
-                "price": 0,
-                "attributes": {
-                    "cloth": "lin-yesna"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2025\/01\/IMG_20250129_225544_857-1024x1024.jpg"
-            },
-            {
-                "id": 78790,
-                "price": 585000,
-                "attributes": {
-                    "cloth": "velvet-overcoat"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2025\/01\/IMG_20250129_225544_857-1024x1024.jpg"
-            },
-            {
-                "id": 78794,
-                "price": 809000,
-                "attributes": {
-                    "cloth": "match-velvet"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2025\/01\/IMG_20250129_225544_857-1024x1024.jpg"
-            }
-        ]
-    },
-    {
-        "id": 26068,
-        "sku": "6511",
-        "name": "طرح پاستیلی | کد 6511",
-        "type": "variable",
-        "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2025\/01\/IMG_20250129_224355_451-1024x949.jpg",
-        "variations": [
-            {
-                "id": 78785,
-                "price": 609000,
-                "attributes": {
-                    "cloth": "jacquard"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2025\/01\/IMG_20250129_224355_451-1024x949.jpg"
-            },
-            {
-                "id": 78791,
-                "price": 427000,
-                "attributes": {
-                    "cloth": "crepe-bugatti"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2025\/01\/IMG_20250129_224355_451-1024x949.jpg"
-            },
-            {
-                "id": 78795,
-                "price": 0,
-                "attributes": {
-                    "cloth": "lin-yesna"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2025\/01\/IMG_20250129_224355_451-1024x949.jpg"
-            },
-            {
-                "id": 78799,
-                "price": 585000,
-                "attributes": {
-                    "cloth": "velvet-overcoat"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2025\/01\/IMG_20250129_224355_451-1024x949.jpg"
-            },
-            {
-                "id": 78802,
-                "price": 809000,
-                "attributes": {
-                    "cloth": "match-velvet"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2025\/01\/IMG_20250129_224355_451-1024x949.jpg"
-            }
-        ]
-    },
-    {
-        "id": 25621,
-        "sku": "6817",
-        "name": "چهل تیکه سرخ | کد 6817",
-        "type": "variable",
-        "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2025\/01\/WhatsApp-Image-2025-01-27-at-13.35.26-1-1-1024x1024.jpeg",
-        "variations": [
-            {
-                "id": 78798,
-                "price": 609000,
-                "attributes": {
-                    "cloth": "jacquard"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2025\/01\/WhatsApp-Image-2025-01-27-at-13.35.26-1-1-1024x1024.jpeg"
-            },
-            {
-                "id": 78804,
-                "price": 427000,
-                "attributes": {
-                    "cloth": "crepe-bugatti"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2025\/01\/WhatsApp-Image-2025-01-27-at-13.35.26-1-1-1024x1024.jpeg"
-            },
-            {
-                "id": 78808,
-                "price": 0,
-                "attributes": {
-                    "cloth": "lin-yesna"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2025\/01\/WhatsApp-Image-2025-01-27-at-13.35.26-1-1-1024x1024.jpeg"
-            },
-            {
-                "id": 78811,
-                "price": 585000,
-                "attributes": {
-                    "cloth": "velvet-overcoat"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2025\/01\/WhatsApp-Image-2025-01-27-at-13.35.26-1-1-1024x1024.jpeg"
-            },
-            {
-                "id": 78815,
-                "price": 809000,
-                "attributes": {
-                    "cloth": "match-velvet"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2025\/01\/WhatsApp-Image-2025-01-27-at-13.35.26-1-1-1024x1024.jpeg"
             }
         ]
     }

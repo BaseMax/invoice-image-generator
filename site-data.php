@@ -1,5 +1,5 @@
 <?php
-$api_url = "https://yasnachap.com/?yasna-api=products&limit=2000&secret_key=...dfg.f.gDJHIGDFFIgOhj4i3oj5s5i6f7j2i3o4234728965234dfgdfg%3E%3C%3C%3C&page=";
+$api_url = "https://yasnachap.com/?yasna-api=products&limit=2000&secret_key=...dfg.f.gDJHIGDFFIgOhj4i3oj5s5i6f7j2i3o4234728965234dfgdfg%3E%3C%3C%3C&all=true&page=";
 $data_dir = "products/";
 $merged_file = "all-products.json";
 
