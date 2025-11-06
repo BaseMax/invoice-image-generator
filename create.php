@@ -26,6 +26,8 @@ require_once $autoload;
 // ---------------------------------------------------------
 // Configuration
 // ---------------------------------------------------------
+$filePath = "input.xlsx";
+$outDir = "tables/";
 $target_cat_id = 163; // پارچه‌های اوت لت
 $tables = extractTables($filePath);
 if (empty($tables)) die("No tables found in Excel file.\n");
@@ -132,6 +134,7 @@ foreach ($tables as $tIndex => $table) {
 
     $created++;
     $log[] = "Created product: {$title} (ID: {$product_id}, SKU: {$sku})";
+	break;
 }
 
 // ---------------------------------------------------------

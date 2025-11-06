@@ -55,61 +55,6 @@
         ]
     },
     {
-        "id": 6089,
-        "sku": "1531",
-        "name": "طرح زبرا مشکی | کد1531",
-        "type": "variable",
-        "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/1b3fb8ce-3022-449f-8201-34e53a5c6632-2-1024x862.jpg",
-        "status": "publish",
-        "variations": [
-            {
-                "id": 79571,
-                "price": 609000,
-                "attributes": {
-                    "cloth": "jacquard"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/1b3fb8ce-3022-449f-8201-34e53a5c6632-2-1024x862.jpg"
-            },
-            {
-                "id": 79574,
-                "price": 427000,
-                "attributes": {
-                    "cloth": "crepe-bugatti"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/1b3fb8ce-3022-449f-8201-34e53a5c6632-2-1024x862.jpg"
-            },
-            {
-                "id": 79576,
-                "price": 0,
-                "attributes": {
-                    "cloth": "lin-yesna"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/1b3fb8ce-3022-449f-8201-34e53a5c6632-2-1024x862.jpg"
-            },
-            {
-                "id": 79578,
-                "price": 585000,
-                "attributes": {
-                    "cloth": "velvet-overcoat"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/1b3fb8ce-3022-449f-8201-34e53a5c6632-2-1024x862.jpg"
-            },
-            {
-                "id": 79580,
-                "price": 809000,
-                "attributes": {
-                    "cloth": "match-velvet"
-                },
-                "stock": null,
-                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/1b3fb8ce-3022-449f-8201-34e53a5c6632-2-1024x862.jpg"
-            }
-        ]
-    },
-    {
         "id": 6091,
         "sku": "6705",
         "name": "طرح پاپیون و گل 🎀🌸| کد 6705",
@@ -161,6 +106,61 @@
                 },
                 "stock": null,
                 "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/6693.jpg"
+            }
+        ]
+    },
+    {
+        "id": 6089,
+        "sku": "1531",
+        "name": "طرح زبرا مشکی | کد1531",
+        "type": "variable",
+        "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/1b3fb8ce-3022-449f-8201-34e53a5c6632-2-1024x862.jpg",
+        "status": "publish",
+        "variations": [
+            {
+                "id": 79571,
+                "price": 609000,
+                "attributes": {
+                    "cloth": "jacquard"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/1b3fb8ce-3022-449f-8201-34e53a5c6632-2-1024x862.jpg"
+            },
+            {
+                "id": 79574,
+                "price": 427000,
+                "attributes": {
+                    "cloth": "crepe-bugatti"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/1b3fb8ce-3022-449f-8201-34e53a5c6632-2-1024x862.jpg"
+            },
+            {
+                "id": 79576,
+                "price": 0,
+                "attributes": {
+                    "cloth": "lin-yesna"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/1b3fb8ce-3022-449f-8201-34e53a5c6632-2-1024x862.jpg"
+            },
+            {
+                "id": 79578,
+                "price": 585000,
+                "attributes": {
+                    "cloth": "velvet-overcoat"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/1b3fb8ce-3022-449f-8201-34e53a5c6632-2-1024x862.jpg"
+            },
+            {
+                "id": 79580,
+                "price": 809000,
+                "attributes": {
+                    "cloth": "match-velvet"
+                },
+                "stock": null,
+                "image": "https:\/\/yasnachap.com\/wp-content\/uploads\/2024\/12\/1b3fb8ce-3022-449f-8201-34e53a5c6632-2-1024x862.jpg"
             }
         ]
     },
