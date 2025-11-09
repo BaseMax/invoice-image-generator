@@ -8,10 +8,10 @@ require 'vendor/autoload.php';
 
 $products = json_decode(file_get_contents("all-products.json"), true);
 
-$filePath = 'input.xlsx';
+$filePath = 'input2.xlsx';
 if (!file_exists($filePath)) die("input.xlsx not found\n");
 
-$outDir = "tables/";
+$outDir = "tables2/";
 if (!is_dir($outDir)) {
     @mkdir($outDir, 0755, true);
 }
