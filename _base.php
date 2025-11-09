@@ -2,8 +2,20 @@
 use PhpOffice\PhpSpreadsheet\IOFactory;
 use PhpOffice\PhpSpreadsheet\Worksheet\Worksheet;
 
+function num2en(string $text): string
+{
+    $persian = ['۰','۱','۲','۳','۴','۵','۶','۷','۸','۹'];
+    $arabic  = ['٠','١','٢','٣','٤','٥','٦','٧','٨','٩'];
+    $english = ['0','1','2','3','4','5','6','7','8','9'];
+    
+    $text = str_replace($persian, $english, $text);
+    $text = str_replace($arabic, $english, $text);
+    return $text;
+}
+
 function getNumberFromText(string $text): ?string
 {
+    $text = num2en($text);
     preg_match_all('/\d+(?:\.\d+)?/', $text, $matches);
     if (empty($matches[0])) {
         return null;

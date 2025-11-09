@@ -26,8 +26,8 @@ require_once $autoload;
 // ---------------------------------------------------------
 // Configuration
 // ---------------------------------------------------------
-$filePath = "input.xlsx";
-$outDir = "tables/";
+$filePath = "input2.xlsx";
+$outDir = "tables2/";
 $target_cat_id = 163; // پارچه‌های اوت لت
 $tables = extractTables($filePath);
 if (empty($tables)) die("No tables found in Excel file.\n");
