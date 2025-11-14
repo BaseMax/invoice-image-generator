@@ -120,6 +120,6 @@ This will create or update products in WooCommerce with attached images.
 
 ---
 
-**Author:** Max Base
+**Author:** Seyyed Ali Mohammadiyeh (Max Base)
 
 **License:** MIT, Copyright 2025
