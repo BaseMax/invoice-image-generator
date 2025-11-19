@@ -79,8 +79,13 @@ function create_product_image(string $code, string $title, string $description, 
 // ---------------------------------------------------------
 // Iterate over extracted tables
 // ---------------------------------------------------------
+$number_sofar = 0;
 foreach ($tables as $tIndex => $table) {
+    $number_sofar++;
     if (empty($table)) continue;
+    if ($number_sofar > 60) {
+        exit();
+    }
 
     $image = $outDir . "table_{$tIndex}.png";
     if (!file_exists($image)) {
