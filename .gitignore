@@ -1,8 +1,4 @@
-~$input.xlsx
-~$input1.xlsx
-~$input2.xlsx
-~$input3.xlsx
-~$input4.xlsx
+~$*.xlsx
 vendor
 *.rar
 *.zip
