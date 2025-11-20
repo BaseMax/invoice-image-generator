@@ -76,10 +76,13 @@ function getMergedMap(Worksheet $sheet): array {
 
 function compactRows(array $table): array {
     $cleaned = [];
+
     foreach ($table as $row) {
-        $filtered = array_values(array_filter($row, fn($v) => trim((string)$v) !== ''));
+        $trimmedRow = array_map(fn($v) => trim((string)$v), $row);
+        $filtered = array_values(array_filter($trimmedRow, fn($v) => $v !== ''));
         $cleaned[] = $filtered;
     }
+
     return $cleaned;
 }
 
@@ -142,7 +145,9 @@ function extractTables(string $filePath, int $maxEmptyGap = 2): array {
             $current[] = $row;
         }
     }
+
     if (!empty($current)) $tables[] = compactRows($current);
+
     return $tables;
 }
 

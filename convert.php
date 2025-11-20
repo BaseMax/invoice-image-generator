@@ -33,8 +33,23 @@ foreach ($tables as $tIndex => $table) {
     if (file_exists($outFile)) continue;
 
     $topLines = array_slice($table, 0, 2);
-    $bottomLines = array_slice($table, -4);
+    $topLines = array_map(function ($line) {
+        if (is_array($line)) {
+            return array_map(function ($text) {
+                return str_replace('پارچه اوت لت', 'سبد پارچه تخفیفی', $text);
+            }, $line);
+        }
+        return str_replace('پارچه اوت لت', 'سبد پارچه تخفیفی', $line);
+    }, $topLines);
+
+    $bottomLines = array_filter($bottomLines, function ($line) {
+        $text = is_array($line) ? implode(' ', $line) : $line;
+        return !(
+            str_contains($text, ' خیریه ')
+        );
+    });
     $bottomLines[] =  ["از کل فروش این فاکتور یک درصد صرف امور خیریه می‌شود."];
+
     $headerIdx = null;
     foreach ($table as $ri => $row) {
         if (mb_strpos(implode(' ', $row), 'ردیف') !== false) {
@@ -68,6 +83,26 @@ foreach ($tables as $tIndex => $table) {
             $row[4] = strrev(str_replace(".", "/", $row[4]));
         }
         $tableLines[] = $row;
+    }
+
+    $removeCols = ['کد اوت لت',];
+    $headerRow = $tableLines[0];
+    $colsToRemove = [];
+
+    foreach ($headerRow as $ci => $colName) {
+        if (in_array(trim($colName), $removeCols)) {
+            $colsToRemove[] = $ci;
+        }
+    }
+
+    if (!empty($colsToRemove)) {
+        foreach ($tableLines as &$row) {
+            foreach ($colsToRemove as $ci) {
+                if (isset($row[$ci])) unset($row[$ci]);
+            }
+            $row = array_values($row);
+        }
+        unset($row);
     }
 
     if (empty($tableLines)) continue;
