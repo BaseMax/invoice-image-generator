@@ -8,10 +8,10 @@ require 'vendor/autoload.php';
 
 $products = json_decode(file_get_contents("all-products.json"), true);
 
-$filePath = 'input4.xlsx';
+$filePath = 'input5.xlsx';
 if (!file_exists($filePath)) die("input.xlsx not found\n");
 
-$outDir = "tables4/";
+$outDir = "tables5/";
 if (!is_dir($outDir)) {
     @mkdir($outDir, 0755, true);
 }
@@ -199,8 +199,6 @@ foreach ($tables as $tIndex => $table) {
     drawImagesAtBottom($im, $localImages, 0, $totalWidth, $imageAreaTop, $imageAreaHeight);
 
     imagepng($im, $outFile);
-    imagedestroy($im);
-
     echo "Saved: $outFile\n";
-    // exit;
+    exit;
 }
