@@ -83,8 +83,14 @@ $number_sofar = 0;
 foreach ($tables as $tIndex => $table) {
     $number_sofar++;
     if (empty($table)) continue;
-    if ($number_sofar > 60) {
+    // if ($number_sofar > 60) {
+    //     exit();
+    // }
+    if ($number_sofar > 120) {
         exit();
+    }
+    if ($number_sofar <= 60) {
+        continue;
     }
 
     $image = $outDir . "table_{$tIndex}.png";

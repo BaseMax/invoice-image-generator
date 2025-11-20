@@ -30,7 +30,7 @@ foreach ($tables as $tIndex => $table) {
     print_r($table);
 
     $outFile = $outDir . "table_{$tIndex}.png";
-    if (file_exists($outFile)) continue;
+    // if (file_exists($outFile)) continue;
 
     $topLines = array_slice($table, 0, 2);
     $topLines = array_map(function ($line) {
@@ -42,6 +42,7 @@ foreach ($tables as $tIndex => $table) {
         return str_replace('پارچه اوت لت', 'سبد پارچه تخفیفی', $line);
     }, $topLines);
 
+    $bottomLines = array_slice($table, -4);
     $bottomLines = array_filter($bottomLines, function ($line) {
         $text = is_array($line) ? implode(' ', $line) : $line;
         return !(
@@ -64,12 +65,23 @@ foreach ($tables as $tIndex => $table) {
         $row = array_map('trim', $table[$ri]);
         if (empty(array_filter($row))) break;
 
-        if (isset($row[0]) && str_contains($row[0], "ارسال")) {
-            break;
+        $skip_rows = [
+            "هزینه ارسال رایگان",
+            "هزینه ارسال",
+        ];
+        $shouldSkip = false;
+
+        foreach ($skip_rows as $skip) {
+            if (
+                (isset($row[0]) && str_contains($row[0], $skip)) ||
+                (isset($row[1]) && str_contains($row[1], $skip))
+            ) {
+                $shouldSkip = true;
+                break;
+            }
         }
-        else if (isset($row[1]) && str_contains($row[1], "ارسال")) {
-            break;
-        }
+
+        if ($shouldSkip) continue;
 
         if (isset($row[1]) && strlen($row[1]) < 4) {
             break;
@@ -121,8 +133,8 @@ foreach ($tables as $tIndex => $table) {
     }
 
     $tableContentWidth = array_sum($colWidths);
-    $totalWidth = 1200;
-    $totalHeight = 1200;
+    $totalWidth = 1000;
+    $totalHeight = 1000;
 
     $im = imagecreatetruecolor($totalWidth, $totalHeight);
     $white = imagecolorallocate($im, 255, 255, 255);
