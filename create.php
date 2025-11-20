@@ -100,7 +100,7 @@ foreach ($tables as $tIndex => $table) {
     }
 
     $code = getNumberFromText($table[1][0] ?? "0");
-    $title = "سبد اوت لت شماره " . $code;
+    $title = "سبد پارچه تخفیفی شماره " . $code;
     $sku = 'OUT-' . $code;
 
     $existing = wc_get_product_id_by_sku($sku);
