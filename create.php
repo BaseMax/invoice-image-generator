@@ -86,10 +86,10 @@ foreach ($tables as $tIndex => $table) {
     // if ($number_sofar > 60) {
     //     exit();
     // }
-    if ($number_sofar > 120) {
+    if ($number_sofar > 180) {
         exit();
     }
-    if ($number_sofar <= 60) {
+    if ($number_sofar <= 120) {
         continue;
     }
 
