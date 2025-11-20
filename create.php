@@ -26,8 +26,8 @@ require_once $autoload;
 // ---------------------------------------------------------
 // Configuration
 // ---------------------------------------------------------
-$filePath = "input2.xlsx";
-$outDir = "tables2/";
+$filePath = "input4.xlsx";
+$outDir = "tables4/";
 $target_cat_id = 163; // پارچه‌های اوت لت
 $tables = extractTables($filePath);
 if (empty($tables)) die("No tables found in Excel file.\n");
@@ -79,8 +79,13 @@ function create_product_image(string $code, string $title, string $description, 
 // ---------------------------------------------------------
 // Iterate over extracted tables
 // ---------------------------------------------------------
+$number_sofar = 0;
 foreach ($tables as $tIndex => $table) {
+    $number_sofar++;
     if (empty($table)) continue;
+    if ($number_sofar > 60) {
+        exit();
+    }
 
     $image = $outDir . "table_{$tIndex}.png";
     if (!file_exists($image)) {
