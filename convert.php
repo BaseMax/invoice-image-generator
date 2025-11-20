@@ -247,5 +247,4 @@ foreach ($tables as $tIndex => $table) {
 
     imagepng($im, $outFile);
     echo "Saved: $outFile\n";
-    exit;
 }
